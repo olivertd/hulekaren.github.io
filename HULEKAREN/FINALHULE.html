@@ -1,0 +1,3356 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///Users/olivertalcoth/Desktop/222.html -->
+<html lang="sv"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+  <script type="text/javascript" async="" src="./FINALHULE_files/analytics.js"></script><script type="text/javascript" async="" src="./FINALHULE_files/analytics(1).js"></script><script type="text/javascript" async="" src="./FINALHULE_files/analytics(2).js"></script><script async="false">;(() => {
+
+  /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "2016");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "00ee":
+/***/ (function(module, exports, __webpack_require__) {
+
+var wellKnownSymbol = __webpack_require__("b622");
+
+var TO_STRING_TAG = wellKnownSymbol('toStringTag');
+var test = {};
+
+test[TO_STRING_TAG] = 'z';
+
+module.exports = String(test) === '[object z]';
+
+
+/***/ }),
+
+/***/ "04f8":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable es/no-symbol -- required for testing */
+var V8_VERSION = __webpack_require__("2d00");
+var fails = __webpack_require__("d039");
+
+// eslint-disable-next-line es/no-object-getownpropertysymbols -- required for testing
+module.exports = !!Object.getOwnPropertySymbols && !fails(function () {
+  var symbol = Symbol();
+  // Chrome 38 Symbol has incorrect toString conversion
+  // `get-own-property-symbols` polyfill symbols converted to object are not Symbol instances
+  return !String(symbol) || !(Object(symbol) instanceof Symbol) ||
+    // Chrome 38-40 symbols are not inherited from DOM collections prototypes to instances
+    !Symbol.sham && V8_VERSION && V8_VERSION < 41;
+});
+
+
+/***/ }),
+
+/***/ "06cf":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var call = __webpack_require__("c65b");
+var propertyIsEnumerableModule = __webpack_require__("d1e7");
+var createPropertyDescriptor = __webpack_require__("5c6c");
+var toIndexedObject = __webpack_require__("fc6a");
+var toPropertyKey = __webpack_require__("a04b");
+var hasOwn = __webpack_require__("1a2d");
+var IE8_DOM_DEFINE = __webpack_require__("0cfb");
+
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var $getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// `Object.getOwnPropertyDescriptor` method
+// https://tc39.es/ecma262/#sec-object.getownpropertydescriptor
+exports.f = DESCRIPTORS ? $getOwnPropertyDescriptor : function getOwnPropertyDescriptor(O, P) {
+  O = toIndexedObject(O);
+  P = toPropertyKey(P);
+  if (IE8_DOM_DEFINE) try {
+    return $getOwnPropertyDescriptor(O, P);
+  } catch (error) { /* empty */ }
+  if (hasOwn(O, P)) return createPropertyDescriptor(!call(propertyIsEnumerableModule.f, O, P), O[P]);
+};
+
+
+/***/ }),
+
+/***/ "07fa":
+/***/ (function(module, exports, __webpack_require__) {
+
+var toLength = __webpack_require__("50c4");
+
+// `LengthOfArrayLike` abstract operation
+// https://tc39.es/ecma262/#sec-lengthofarraylike
+module.exports = function (obj) {
+  return toLength(obj.length);
+};
+
+
+/***/ }),
+
+/***/ "0cfb":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var fails = __webpack_require__("d039");
+var createElement = __webpack_require__("cc12");
+
+// Thanks to IE8 for its funny defineProperty
+module.exports = !DESCRIPTORS && !fails(function () {
+  // eslint-disable-next-line es/no-object-defineproperty -- required for testing
+  return Object.defineProperty(createElement('div'), 'a', {
+    get: function () { return 7; }
+  }).a != 7;
+});
+
+
+/***/ }),
+
+/***/ "0d26":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+
+var $Error = Error;
+var replace = uncurryThis(''.replace);
+
+var TEST = (function (arg) { return String($Error(arg).stack); })('zxcasd');
+var V8_OR_CHAKRA_STACK_ENTRY = /\n\s*at [^:]*:[^\n]*/;
+var IS_V8_OR_CHAKRA_STACK = V8_OR_CHAKRA_STACK_ENTRY.test(TEST);
+
+module.exports = function (stack, dropEntries) {
+  if (IS_V8_OR_CHAKRA_STACK && typeof stack == 'string' && !$Error.prepareStackTrace) {
+    while (dropEntries--) stack = replace(stack, V8_OR_CHAKRA_STACK_ENTRY, '');
+  } return stack;
+};
+
+
+/***/ }),
+
+/***/ "0d51":
+/***/ (function(module, exports) {
+
+var $String = String;
+
+module.exports = function (argument) {
+  try {
+    return $String(argument);
+  } catch (error) {
+    return 'Object';
+  }
+};
+
+
+/***/ }),
+
+/***/ "13d2":
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__("d039");
+var isCallable = __webpack_require__("1626");
+var hasOwn = __webpack_require__("1a2d");
+var DESCRIPTORS = __webpack_require__("83ab");
+var CONFIGURABLE_FUNCTION_NAME = __webpack_require__("5e77").CONFIGURABLE;
+var inspectSource = __webpack_require__("8925");
+var InternalStateModule = __webpack_require__("69f3");
+
+var enforceInternalState = InternalStateModule.enforce;
+var getInternalState = InternalStateModule.get;
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var defineProperty = Object.defineProperty;
+
+var CONFIGURABLE_LENGTH = DESCRIPTORS && !fails(function () {
+  return defineProperty(function () { /* empty */ }, 'length', { value: 8 }).length !== 8;
+});
+
+var TEMPLATE = String(String).split('String');
+
+var makeBuiltIn = module.exports = function (value, name, options) {
+  if (String(name).slice(0, 7) === 'Symbol(') {
+    name = '[' + String(name).replace(/^Symbol\(([^)]*)\)/, '$1') + ']';
+  }
+  if (options && options.getter) name = 'get ' + name;
+  if (options && options.setter) name = 'set ' + name;
+  if (!hasOwn(value, 'name') || (CONFIGURABLE_FUNCTION_NAME && value.name !== name)) {
+    if (DESCRIPTORS) defineProperty(value, 'name', { value: name, configurable: true });
+    else value.name = name;
+  }
+  if (CONFIGURABLE_LENGTH && options && hasOwn(options, 'arity') && value.length !== options.arity) {
+    defineProperty(value, 'length', { value: options.arity });
+  }
+  try {
+    if (options && hasOwn(options, 'constructor') && options.constructor) {
+      if (DESCRIPTORS) defineProperty(value, 'prototype', { writable: false });
+    // in V8 ~ Chrome 53, prototypes of some methods, like `Array.prototype.values`, are non-writable
+    } else if (value.prototype) value.prototype = undefined;
+  } catch (error) { /* empty */ }
+  var state = enforceInternalState(value);
+  if (!hasOwn(state, 'source')) {
+    state.source = TEMPLATE.join(typeof name == 'string' ? name : '');
+  } return value;
+};
+
+// add fake Function#toString for correct work wrapped methods / constructors with methods like LoDash isNative
+// eslint-disable-next-line no-extend-native -- required
+Function.prototype.toString = makeBuiltIn(function toString() {
+  return isCallable(this) && getInternalState(this).source || inspectSource(this);
+}, 'toString');
+
+
+/***/ }),
+
+/***/ "1626":
+/***/ (function(module, exports, __webpack_require__) {
+
+var $documentAll = __webpack_require__("8ea1");
+
+var documentAll = $documentAll.all;
+
+// `IsCallable` abstract operation
+// https://tc39.es/ecma262/#sec-iscallable
+module.exports = $documentAll.IS_HTMLDDA ? function (argument) {
+  return typeof argument == 'function' || argument === documentAll;
+} : function (argument) {
+  return typeof argument == 'function';
+};
+
+
+/***/ }),
+
+/***/ "1a2d":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+var toObject = __webpack_require__("7b0b");
+
+var hasOwnProperty = uncurryThis({}.hasOwnProperty);
+
+// `HasOwnProperty` abstract operation
+// https://tc39.es/ecma262/#sec-hasownproperty
+// eslint-disable-next-line es/no-object-hasown -- safe
+module.exports = Object.hasOwn || function hasOwn(it, key) {
+  return hasOwnProperty(toObject(it), key);
+};
+
+
+/***/ }),
+
+/***/ "1d80":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isNullOrUndefined = __webpack_require__("7234");
+
+var $TypeError = TypeError;
+
+// `RequireObjectCoercible` abstract operation
+// https://tc39.es/ecma262/#sec-requireobjectcoercible
+module.exports = function (it) {
+  if (isNullOrUndefined(it)) throw $TypeError("Can't call method on " + it);
+  return it;
+};
+
+
+/***/ }),
+
+/***/ "2016":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.error.cause.js
+var es_error_cause = __webpack_require__("d9e2");
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/defineProperty.js
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+// CONCATENATED MODULE: ./src/pageProvider/pageProvider.js
+
+
+
+class pageProvider_PageProvider {
+  constructor(window) {
+    _defineProperty(this, "window", void 0);
+
+    this.window = window;
+  }
+
+  setup() {
+    throw new Error('not implemented');
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/providerManager.js
+
+
+
+class providerManager_InjectedProvider extends pageProvider_PageProvider {
+  constructor(window, asset) {
+    super(window);
+    this.asset = asset;
+  }
+
+  setClient() {}
+
+  getMethod(method) {
+    return (...args) => this.window.providerManager.proxy('CAL_REQUEST', {
+      asset: this.asset,
+      method,
+      args
+    });
+  }
+
+}
+
+class providerManager_ProviderManager extends pageProvider_PageProvider {
+  constructor(window) {
+    super(window);
+    this.cache = {};
+  }
+
+  proxy(type, data) {
+    return new Promise((resolve, reject) => {
+      const id = Date.now() + '.' + Math.random();
+      this.window.addEventListener(id, ({
+        detail
+      }) => {
+        const response = JSON.parse(detail);
+        if (response.error) reject(new Error(response.error));else resolve(response.result);
+      }, {
+        once: true,
+        passive: true
+      });
+      this.window.postMessage({
+        id,
+        type,
+        data
+      }, '*');
+    });
+  }
+
+  getProviderFor(asset) {
+    if (this.cache[asset]) return this.cache[asset];
+    this.cache[asset] = new providerManager_InjectedProvider(this.window, asset);
+    return this.cache[asset];
+  }
+
+  getInjectionName(chain) {
+    return chain === 'ethereum' ? 'eth' : chain;
+  }
+
+  enable(chain) {
+    return this.proxy('ENABLE_REQUEST', {
+      chain
+    });
+  }
+
+  setup() {
+    this.window.providerManager = this;
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/ethereumProvider.js
+
+
+
+
+class ethereumProvider_EthereumPageProvider extends pageProvider_PageProvider {
+  constructor(window, chain, asset, network) {
+    super(window);
+
+    _defineProperty(this, "chain", void 0);
+
+    _defineProperty(this, "asset", void 0);
+
+    _defineProperty(this, "network", void 0);
+
+    this.chain = chain;
+    this.asset = asset;
+    this.network = network;
+  }
+
+  async handleRequest(req) {
+    const injectionName = this.window.providerManager.getInjectionName(this.chain);
+    const eth = this.window.providerManager.getProviderFor(this.asset);
+    if (req.method.startsWith('metamask_')) return null;
+
+    if (req.method === 'eth_requestAccounts') {
+      return await this.window[injectionName].enable(this.chain);
+    }
+
+    if (req.method === 'personal_sign') {
+      const sig = await eth.getMethod('wallet.signMessage')(req.params[0], req.params[1]);
+      return '0x' + sig;
+    }
+
+    if (req.method === 'eth_signTypedData' || req.method === 'eth_signTypedData_v3' || req.method === 'eth_signTypedData_v4') {
+      const sig = await eth.getMethod('wallet.signTypedData')(req);
+      return sig;
+    }
+
+    if (req.method === 'eth_sendTransaction') {
+      const to = req.params[0].to;
+      const value = req.params[0].value;
+      const data = req.params[0].data;
+      const gas = req.params[0].gas;
+      const result = await eth.getMethod('wallet.sendTransaction')({
+        to,
+        value,
+        data,
+        gas
+      });
+      return result.hash;
+    }
+
+    if (req.method === 'eth_accounts') {
+      return this.getAddresses();
+    }
+
+    return eth.getMethod('chain.sendRpcRequest')(req.method, req.params);
+  }
+
+  async getAddresses() {
+    const injectionName = this.window.providerManager.getInjectionName(this.chain);
+    const eth = this.window.providerManager.getProviderFor(this.asset);
+    let addresses = await eth.getMethod('wallet.getAddresses')();
+    addresses = addresses.map(a => a.address);
+    this.window[injectionName].selectedAddress = addresses[0];
+    return addresses;
+  }
+
+  setup() {
+    const metamaskEmulated = ['opensea.io', 'unstoppabledomains.com'].some(site => this.window.location.host.indexOf(site) !== -1); // Is some kind of smart emulation possible?
+
+    const injectionName = this.window.providerManager.getInjectionName(this.chain);
+    this.window[injectionName] = {
+      isLiquality: true,
+      isMetaMask: metamaskEmulated,
+      isEIP1193: true,
+      networkVersion: this.network.networkId,
+      chainId: this.network.chainId.toString(16),
+      enable: async () => {
+        const {
+          accepted
+        } = await this.window.providerManager.enable(this.chain);
+        if (!accepted) throw new Error('User rejected');
+        return this.getAddresses();
+      },
+      request: async req => {
+        const params = req.params || [];
+        return this.handleRequest({
+          method: req.method,
+          params
+        });
+      },
+      send: async (req, _paramsOrCallback) => {
+        if (typeof _paramsOrCallback === 'function') {
+          this.window[injectionName].sendAsync(req, _paramsOrCallback);
+          return;
+        }
+
+        const method = typeof req === 'string' ? req : req.method;
+        const params = req.params || _paramsOrCallback || [];
+        return this.handleRequest({
+          method,
+          params
+        }).then(result => ({
+          id: req && req.id ? req.id : 99999,
+          jsonrpc: '2.0',
+          result
+        }));
+      },
+      removeAllListeners: () => {
+        // mock this call for a hotfix
+        return false;
+      },
+      sendAsync: (req, callback) => {
+        return this.handleRequest(req).then(result => callback(null, {
+          id: req.id,
+          jsonrpc: '2.0',
+          result
+        })).catch(err => callback(err));
+      },
+      on: (method, callback) => {
+        if (method === 'chainChanged') {
+          this.window.addEventListener('liqualityChainChanged', ({
+            detail
+          }) => {
+            const result = JSON.parse(detail);
+            callback('0x' + result.chainIds[this.chain].toString(16));
+          });
+        }
+
+        if (method === 'accountsChanged') {
+          this.window.addEventListener('liqualityAccountsChanged', () => {
+            const addresses = this.getAddresses();
+            callback(addresses);
+          });
+        }
+      },
+      autoRefreshOnNetworkChange: false
+    };
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/globalEthereumProvider.js
+
+
+
+
+class globalEthereumProvider_GlobalEthereumPageProvider extends pageProvider_PageProvider {
+  constructor(window, override, ethereumChain) {
+    super(window);
+
+    _defineProperty(this, "override", void 0);
+
+    _defineProperty(this, "ethereumChain", void 0);
+
+    this.override = override;
+    this.ethereumChain = ethereumChain;
+  }
+
+  async enable() {
+    // TODO: explicityl pass provider maanger?
+    const {
+      accepted,
+      chain
+    } = await this.window.providerManager.enable();
+    if (!accepted) throw new Error('User rejected');
+    const chainChanged = this.window.ethereumProxyChain !== chain;
+    this.window.ethereumProxyChain = chain;
+    const injectionName = this.window.providerManager.getInjectionName(chain);
+
+    if (chainChanged) {
+      this.window.dispatchEvent(new CustomEvent('liqualityChainChanged', {
+        detail: JSON.stringify({
+          chainIds: {
+            [chain]: this.window[injectionName].chainId
+          }
+        })
+      }));
+    }
+
+    return this.window[injectionName].enable(chain);
+  }
+
+  proxyEthereum() {
+    this.window.ethereumProxyChain = this.ethereumChain;
+    const overrideHandler = {
+      get: (_target, prop) => {
+        const injectionName = this.window.providerManager.getInjectionName(this.window.ethereumProxyChain);
+        const target = window[injectionName];
+
+        if (prop === 'on') {
+          return (method, callback) => {
+            if (method === 'chainChanged') {
+              this.window.addEventListener('liqualityChainChanged', ({
+                detail
+              }) => {
+                const result = JSON.parse(detail);
+                callback('0x' + result.chainIds[this.window.ethereumProxyChain].toString(16));
+              });
+            }
+
+            if (method === 'accountsChanged') {
+              this.window.addEventListener('liqualityAccountsChanged', () => {
+                target.request({
+                  method: 'eth_accounts',
+                  params: []
+                }).then(newAccounts => {
+                  callback(newAccounts);
+                });
+              });
+            }
+          };
+        }
+
+        if (prop === 'enable') {
+          return async () => {
+            return this.enable();
+          };
+        }
+
+        if (prop === 'request') {
+          return async req => {
+            if (req.method === 'eth_requestAccounts') {
+              return this.enable();
+            }
+
+            return target[prop](req);
+          };
+        }
+
+        if (prop === 'send') {
+          return async (req, _paramsOrCallback) => {
+            const method = typeof req === 'string' ? req : req.method;
+
+            if (method === 'eth_requestAccounts') {
+              if (typeof _paramsOrCallback === 'function') {
+                const callback = _paramsOrCallback;
+                return this.enable().then(result => callback(null, {
+                  id: req.id,
+                  jsonrpc: '2.0',
+                  result
+                })).catch(err => callback(err));
+              }
+
+              return this.enable();
+            }
+
+            return target[prop](req, _paramsOrCallback);
+          };
+        }
+
+        return target[prop];
+      }
+    };
+    this.window.ethereum = new Proxy({}, overrideHandler);
+  }
+
+  setup() {
+    if (this.override) {
+      this.proxyEthereum();
+      const retryLimit = 5;
+      let retries = 0;
+      const interval = setInterval(() => {
+        retries++;
+
+        if (this.window.ethereum && !this.window.ethereum.isLiquality) {
+          this.proxyEthereum();
+          clearInterval(interval);
+        }
+
+        if (retries >= retryLimit) clearInterval(interval);
+      }, 1000);
+    } else if (!this.window.ethereum) {
+      this.proxyEthereum();
+    }
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/bitcoinProvider.js
+
+
+const BITCOIN_REQUEST_MAP = {
+  wallet_getConnectedNetwork: 'wallet.getConnectedNetwork',
+  wallet_getAddresses: 'wallet.getAddresses',
+  wallet_signMessage: 'wallet.signMessage',
+  wallet_sendTransaction: 'wallet.sendTransaction',
+  wallet_signPSBT: 'wallet.signPSBT'
+};
+
+class bitcoinProvider_BitcoinPageProvider extends pageProvider_PageProvider {
+  async handleRequest(req) {
+    const btc = this.window.providerManager.getProviderFor('BTC');
+
+    if (req.method === 'wallet_sendTransaction') {
+      const to = req.params[0].to;
+      const value = req.params[0].value.toString(16);
+      return btc.getMethod('wallet.sendTransaction')({
+        to,
+        value
+      });
+    }
+
+    const method = BITCOIN_REQUEST_MAP[req.method] || req.method;
+    return btc.getMethod(method)(...req.params);
+  }
+
+  setup() {
+    this.window.bitcoin = {
+      enable: async () => {
+        const {
+          accepted
+        } = await this.window.providerManager.enable('bitcoin');
+        if (!accepted) throw new Error('User rejected');
+        const btc = this.window.providerManager.getProviderFor('BTC');
+        return btc.getMethod('wallet.getAddresses')();
+      },
+      request: async req => {
+        const params = req.params || [];
+        return this.handleRequest({
+          method: req.method,
+          params
+        });
+      }
+    };
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/paymentUri.js
+
+
+class paymentUri_PagementURIPageProvivder extends pageProvider_PageProvider {
+  setup() {
+    document.addEventListener('DOMContentLoaded', () => {
+      document.body.addEventListener('click', async e => {
+        const element = e.target;
+        if (!element || !element.closest) return;
+        const uri = element.closest('[href^="bitcoin:"]') || element.closest('[href^="ethereum:"]');
+
+        if (uri) {
+          const href = uri.getAttribute('href');
+          const includesAmount = href.includes('value=') || href.includes('amount=');
+
+          if (includesAmount) {
+            e.preventDefault();
+            await this.window.providerManager.enable('near');
+            this.window.providerManager.proxy('HANDLE_PAYMENT_URI', {
+              uri: href
+            });
+          }
+        }
+      });
+    }, {
+      once: true
+    });
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/utils.js
+const COMMON_REQUEST_MAP = {
+  wallet_getConnectedNetwork: 'wallet.getConnectedNetwork',
+  wallet_getAddresses: 'wallet.getAddresses',
+  wallet_signMessage: 'wallet.signMessage',
+  wallet_sendTransaction: 'wallet.sendTransaction'
+};
+
+// CONCATENATED MODULE: ./src/pageProvider/terraProvider.js
+
+
+
+
+class terraProvider_TerraPageProvider extends pageProvider_PageProvider {
+  async handleRequest(req) {
+    const terraProvider = this.window.providerManager.getProviderFor('LUNA');
+    const method = COMMON_REQUEST_MAP[req.method] || req.method;
+    return terraProvider.getMethod(method)(...req.params);
+  }
+
+  setup() {
+    this.window.isTerraExtensionAvailable = true;
+    this.window.terra = {
+      enable: async () => {
+        const accepted = await this.window.providerManager.enable('terra');
+        if (!accepted) throw new Error('User rejected');
+        const terra = this.window.providerManager.getProviderFor('LUNA');
+        return terra.getMethod('wallet.getAddresses')();
+      },
+      request: async req => {
+        const params = req.params || [];
+        return this.handleRequest({
+          method: req.method,
+          params
+        });
+      }
+    };
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/nearProvider.js
+
+
+
+
+class nearProvider_NearPageProvider extends pageProvider_PageProvider {
+  async handleRequest(req) {
+    const near = this.window.providerManager.getProviderFor('NEAR');
+    const method = COMMON_REQUEST_MAP[req.method] || req.method;
+    return near.getMethod(method)(...req.params);
+  }
+
+  setup() {
+    this.window.near = {
+      enable: async () => {
+        const {
+          accepted
+        } = await this.window.providerManager.enable('near');
+        if (!accepted) throw new Error('User rejected');
+        const near = this.window.providerManager.getProviderFor('NEAR');
+        return near.getMethod('wallet.getAddresses')();
+      },
+      request: async req => {
+        const params = req.params || [];
+        return this.handleRequest({
+          method: req.method,
+          params
+        });
+      }
+    };
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/solanaProvider.js
+
+
+
+
+class solanaProvider_SolanaPageProvider extends pageProvider_PageProvider {
+  async handleRequest(req) {
+    const solana = this.window.providerManager.getProviderFor('SOL');
+    const method = COMMON_REQUEST_MAP[req.method] || req.method;
+    return solana.getMethod(method)(...req.params);
+  }
+
+  setup() {
+    this.window.sollet = {
+      enable: async () => {
+        const {
+          accepted
+        } = await this.window.providerManager.enable('solana');
+        if (!accepted) throw new Error('User rejected');
+        const solana = this.window.providerManager.getProviderFor('SOL');
+        return solana.getMethod('wallet.getAddresses')();
+      },
+      request: async req => {
+        const params = req.params || [];
+        return this.handleRequest({
+          method: req.method,
+          params
+        });
+      }
+    };
+  }
+
+}
+
+
+// CONCATENATED MODULE: ./src/pageProvider/index.js
+
+
+
+
+
+
+
+
+const {
+  override: pageProvider_override,
+  ethereumChain: pageProvider_ethereumChain
+} = window.liquality.globalEthereum;
+const ethereumProviders = window.liquality.evmChains.map(evmChain => new ethereumProvider_EthereumPageProvider(window, evmChain.chain, evmChain.asset, evmChain.network));
+const providers = [new providerManager_ProviderManager(window), ...ethereumProviders, new globalEthereumProvider_GlobalEthereumPageProvider(window, pageProvider_override, pageProvider_ethereumChain), new bitcoinProvider_BitcoinPageProvider(window), new nearProvider_NearPageProvider(window), new solanaProvider_SolanaPageProvider(window), new terraProvider_TerraPageProvider(window), new paymentUri_PagementURIPageProvivder(window)];
+providers.forEach(p => p.setup());
+
+/***/ }),
+
+/***/ "23cb":
+/***/ (function(module, exports, __webpack_require__) {
+
+var toIntegerOrInfinity = __webpack_require__("5926");
+
+var max = Math.max;
+var min = Math.min;
+
+// Helper for a popular repeating case of the spec:
+// Let integer be ? ToInteger(index).
+// If integer < 0, let result be max((length + integer), 0); else let result be min(integer, length).
+module.exports = function (index, length) {
+  var integer = toIntegerOrInfinity(index);
+  return integer < 0 ? max(integer + length, 0) : min(integer, length);
+};
+
+
+/***/ }),
+
+/***/ "23e7":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var getOwnPropertyDescriptor = __webpack_require__("06cf").f;
+var createNonEnumerableProperty = __webpack_require__("9112");
+var defineBuiltIn = __webpack_require__("cb2d");
+var defineGlobalProperty = __webpack_require__("6374");
+var copyConstructorProperties = __webpack_require__("e893");
+var isForced = __webpack_require__("94ca");
+
+/*
+  options.target         - name of the target object
+  options.global         - target is the global object
+  options.stat           - export as static methods of target
+  options.proto          - export as prototype methods of target
+  options.real           - real prototype method for the `pure` version
+  options.forced         - export even if the native feature is available
+  options.bind           - bind methods to the target, required for the `pure` version
+  options.wrap           - wrap constructors to preventing global pollution, required for the `pure` version
+  options.unsafe         - use the simple assignment of property instead of delete + defineProperty
+  options.sham           - add a flag to not completely full polyfills
+  options.enumerable     - export as enumerable property
+  options.dontCallGetSet - prevent calling a getter on target
+  options.name           - the .name of the function if it does not match the key
+*/
+module.exports = function (options, source) {
+  var TARGET = options.target;
+  var GLOBAL = options.global;
+  var STATIC = options.stat;
+  var FORCED, target, key, targetProperty, sourceProperty, descriptor;
+  if (GLOBAL) {
+    target = global;
+  } else if (STATIC) {
+    target = global[TARGET] || defineGlobalProperty(TARGET, {});
+  } else {
+    target = (global[TARGET] || {}).prototype;
+  }
+  if (target) for (key in source) {
+    sourceProperty = source[key];
+    if (options.dontCallGetSet) {
+      descriptor = getOwnPropertyDescriptor(target, key);
+      targetProperty = descriptor && descriptor.value;
+    } else targetProperty = target[key];
+    FORCED = isForced(GLOBAL ? key : TARGET + (STATIC ? '.' : '#') + key, options.forced);
+    // contained in target
+    if (!FORCED && targetProperty !== undefined) {
+      if (typeof sourceProperty == typeof targetProperty) continue;
+      copyConstructorProperties(sourceProperty, targetProperty);
+    }
+    // add a flag to not completely full polyfills
+    if (options.sham || (targetProperty && targetProperty.sham)) {
+      createNonEnumerableProperty(sourceProperty, 'sham', true);
+    }
+    defineBuiltIn(target, key, sourceProperty, options);
+  }
+};
+
+
+/***/ }),
+
+/***/ "241c":
+/***/ (function(module, exports, __webpack_require__) {
+
+var internalObjectKeys = __webpack_require__("ca84");
+var enumBugKeys = __webpack_require__("7839");
+
+var hiddenKeys = enumBugKeys.concat('length', 'prototype');
+
+// `Object.getOwnPropertyNames` method
+// https://tc39.es/ecma262/#sec-object.getownpropertynames
+// eslint-disable-next-line es/no-object-getownpropertynames -- safe
+exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
+  return internalObjectKeys(O, hiddenKeys);
+};
+
+
+/***/ }),
+
+/***/ "2ba4":
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_BIND = __webpack_require__("40d5");
+
+var FunctionPrototype = Function.prototype;
+var apply = FunctionPrototype.apply;
+var call = FunctionPrototype.call;
+
+// eslint-disable-next-line es/no-reflect -- safe
+module.exports = typeof Reflect == 'object' && Reflect.apply || (NATIVE_BIND ? call.bind(apply) : function () {
+  return call.apply(apply, arguments);
+});
+
+
+/***/ }),
+
+/***/ "2d00":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var userAgent = __webpack_require__("342f");
+
+var process = global.process;
+var Deno = global.Deno;
+var versions = process && process.versions || Deno && Deno.version;
+var v8 = versions && versions.v8;
+var match, version;
+
+if (v8) {
+  match = v8.split('.');
+  // in old Chrome, versions of V8 isn't V8 = Chrome / 10
+  // but their correct versions are not interesting for us
+  version = match[0] > 0 && match[0] < 4 ? 1 : +(match[0] + match[1]);
+}
+
+// BrowserFS NodeJS `process` polyfill incorrectly set `.v8` to `0.0`
+// so check `userAgent` even if `.v8` exists, but 0
+if (!version && userAgent) {
+  match = userAgent.match(/Edge\/(\d+)/);
+  if (!match || match[1] >= 74) {
+    match = userAgent.match(/Chrome\/(\d+)/);
+    if (match) version = +match[1];
+  }
+}
+
+module.exports = version;
+
+
+/***/ }),
+
+/***/ "342f":
+/***/ (function(module, exports, __webpack_require__) {
+
+var getBuiltIn = __webpack_require__("d066");
+
+module.exports = getBuiltIn('navigator', 'userAgent') || '';
+
+
+/***/ }),
+
+/***/ "3a9b":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+
+module.exports = uncurryThis({}.isPrototypeOf);
+
+
+/***/ }),
+
+/***/ "3bbe":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isCallable = __webpack_require__("1626");
+
+var $String = String;
+var $TypeError = TypeError;
+
+module.exports = function (argument) {
+  if (typeof argument == 'object' || isCallable(argument)) return argument;
+  throw $TypeError("Can't set " + $String(argument) + ' as a prototype');
+};
+
+
+/***/ }),
+
+/***/ "40d5":
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__("d039");
+
+module.exports = !fails(function () {
+  // eslint-disable-next-line es/no-function-prototype-bind -- safe
+  var test = (function () { /* empty */ }).bind();
+  // eslint-disable-next-line no-prototype-builtins -- safe
+  return typeof test != 'function' || test.hasOwnProperty('prototype');
+});
+
+
+/***/ }),
+
+/***/ "44ad":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+var fails = __webpack_require__("d039");
+var classof = __webpack_require__("c6b6");
+
+var $Object = Object;
+var split = uncurryThis(''.split);
+
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+module.exports = fails(function () {
+  // throws an error in rhino, see https://github.com/mozilla/rhino/issues/346
+  // eslint-disable-next-line no-prototype-builtins -- safe
+  return !$Object('z').propertyIsEnumerable(0);
+}) ? function (it) {
+  return classof(it) == 'String' ? split(it, '') : $Object(it);
+} : $Object;
+
+
+/***/ }),
+
+/***/ "485a":
+/***/ (function(module, exports, __webpack_require__) {
+
+var call = __webpack_require__("c65b");
+var isCallable = __webpack_require__("1626");
+var isObject = __webpack_require__("861d");
+
+var $TypeError = TypeError;
+
+// `OrdinaryToPrimitive` abstract operation
+// https://tc39.es/ecma262/#sec-ordinarytoprimitive
+module.exports = function (input, pref) {
+  var fn, val;
+  if (pref === 'string' && isCallable(fn = input.toString) && !isObject(val = call(fn, input))) return val;
+  if (isCallable(fn = input.valueOf) && !isObject(val = call(fn, input))) return val;
+  if (pref !== 'string' && isCallable(fn = input.toString) && !isObject(val = call(fn, input))) return val;
+  throw $TypeError("Can't convert object to primitive value");
+};
+
+
+/***/ }),
+
+/***/ "4d64":
+/***/ (function(module, exports, __webpack_require__) {
+
+var toIndexedObject = __webpack_require__("fc6a");
+var toAbsoluteIndex = __webpack_require__("23cb");
+var lengthOfArrayLike = __webpack_require__("07fa");
+
+// `Array.prototype.{ indexOf, includes }` methods implementation
+var createMethod = function (IS_INCLUDES) {
+  return function ($this, el, fromIndex) {
+    var O = toIndexedObject($this);
+    var length = lengthOfArrayLike(O);
+    var index = toAbsoluteIndex(fromIndex, length);
+    var value;
+    // Array#includes uses SameValueZero equality algorithm
+    // eslint-disable-next-line no-self-compare -- NaN check
+    if (IS_INCLUDES && el != el) while (length > index) {
+      value = O[index++];
+      // eslint-disable-next-line no-self-compare -- NaN check
+      if (value != value) return true;
+    // Array#indexOf ignores holes, Array#includes - not
+    } else for (;length > index; index++) {
+      if ((IS_INCLUDES || index in O) && O[index] === el) return IS_INCLUDES || index || 0;
+    } return !IS_INCLUDES && -1;
+  };
+};
+
+module.exports = {
+  // `Array.prototype.includes` method
+  // https://tc39.es/ecma262/#sec-array.prototype.includes
+  includes: createMethod(true),
+  // `Array.prototype.indexOf` method
+  // https://tc39.es/ecma262/#sec-array.prototype.indexof
+  indexOf: createMethod(false)
+};
+
+
+/***/ }),
+
+/***/ "50c4":
+/***/ (function(module, exports, __webpack_require__) {
+
+var toIntegerOrInfinity = __webpack_require__("5926");
+
+var min = Math.min;
+
+// `ToLength` abstract operation
+// https://tc39.es/ecma262/#sec-tolength
+module.exports = function (argument) {
+  return argument > 0 ? min(toIntegerOrInfinity(argument), 0x1FFFFFFFFFFFFF) : 0; // 2 ** 53 - 1 == 9007199254740991
+};
+
+
+/***/ }),
+
+/***/ "5692":
+/***/ (function(module, exports, __webpack_require__) {
+
+var IS_PURE = __webpack_require__("c430");
+var store = __webpack_require__("c6cd");
+
+(module.exports = function (key, value) {
+  return store[key] || (store[key] = value !== undefined ? value : {});
+})('versions', []).push({
+  version: '3.25.3',
+  mode: IS_PURE ? 'pure' : 'global',
+  copyright: '© 2014-2022 Denis Pushkarev (zloirock.ru)',
+  license: 'https://github.com/zloirock/core-js/blob/v3.25.3/LICENSE',
+  source: 'https://github.com/zloirock/core-js'
+});
+
+
+/***/ }),
+
+/***/ "56ef":
+/***/ (function(module, exports, __webpack_require__) {
+
+var getBuiltIn = __webpack_require__("d066");
+var uncurryThis = __webpack_require__("e330");
+var getOwnPropertyNamesModule = __webpack_require__("241c");
+var getOwnPropertySymbolsModule = __webpack_require__("7418");
+var anObject = __webpack_require__("825a");
+
+var concat = uncurryThis([].concat);
+
+// all object keys, includes non-enumerable and symbols
+module.exports = getBuiltIn('Reflect', 'ownKeys') || function ownKeys(it) {
+  var keys = getOwnPropertyNamesModule.f(anObject(it));
+  var getOwnPropertySymbols = getOwnPropertySymbolsModule.f;
+  return getOwnPropertySymbols ? concat(keys, getOwnPropertySymbols(it)) : keys;
+};
+
+
+/***/ }),
+
+/***/ "577e":
+/***/ (function(module, exports, __webpack_require__) {
+
+var classof = __webpack_require__("f5df");
+
+var $String = String;
+
+module.exports = function (argument) {
+  if (classof(argument) === 'Symbol') throw TypeError('Cannot convert a Symbol value to a string');
+  return $String(argument);
+};
+
+
+/***/ }),
+
+/***/ "5926":
+/***/ (function(module, exports, __webpack_require__) {
+
+var trunc = __webpack_require__("b42e");
+
+// `ToIntegerOrInfinity` abstract operation
+// https://tc39.es/ecma262/#sec-tointegerorinfinity
+module.exports = function (argument) {
+  var number = +argument;
+  // eslint-disable-next-line no-self-compare -- NaN check
+  return number !== number || number === 0 ? 0 : trunc(number);
+};
+
+
+/***/ }),
+
+/***/ "59ed":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isCallable = __webpack_require__("1626");
+var tryToString = __webpack_require__("0d51");
+
+var $TypeError = TypeError;
+
+// `Assert: IsCallable(argument) is true`
+module.exports = function (argument) {
+  if (isCallable(argument)) return argument;
+  throw $TypeError(tryToString(argument) + ' is not a function');
+};
+
+
+/***/ }),
+
+/***/ "5c6c":
+/***/ (function(module, exports) {
+
+module.exports = function (bitmap, value) {
+  return {
+    enumerable: !(bitmap & 1),
+    configurable: !(bitmap & 2),
+    writable: !(bitmap & 4),
+    value: value
+  };
+};
+
+
+/***/ }),
+
+/***/ "5e77":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var hasOwn = __webpack_require__("1a2d");
+
+var FunctionPrototype = Function.prototype;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getDescriptor = DESCRIPTORS && Object.getOwnPropertyDescriptor;
+
+var EXISTS = hasOwn(FunctionPrototype, 'name');
+// additional protection from minified / mangled / dropped function names
+var PROPER = EXISTS && (function something() { /* empty */ }).name === 'something';
+var CONFIGURABLE = EXISTS && (!DESCRIPTORS || (DESCRIPTORS && getDescriptor(FunctionPrototype, 'name').configurable));
+
+module.exports = {
+  EXISTS: EXISTS,
+  PROPER: PROPER,
+  CONFIGURABLE: CONFIGURABLE
+};
+
+
+/***/ }),
+
+/***/ "6374":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var defineProperty = Object.defineProperty;
+
+module.exports = function (key, value) {
+  try {
+    defineProperty(global, key, { value: value, configurable: true, writable: true });
+  } catch (error) {
+    global[key] = value;
+  } return value;
+};
+
+
+/***/ }),
+
+/***/ "69f3":
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_WEAK_MAP = __webpack_require__("cdce");
+var global = __webpack_require__("da84");
+var uncurryThis = __webpack_require__("e330");
+var isObject = __webpack_require__("861d");
+var createNonEnumerableProperty = __webpack_require__("9112");
+var hasOwn = __webpack_require__("1a2d");
+var shared = __webpack_require__("c6cd");
+var sharedKey = __webpack_require__("f772");
+var hiddenKeys = __webpack_require__("d012");
+
+var OBJECT_ALREADY_INITIALIZED = 'Object already initialized';
+var TypeError = global.TypeError;
+var WeakMap = global.WeakMap;
+var set, get, has;
+
+var enforce = function (it) {
+  return has(it) ? get(it) : set(it, {});
+};
+
+var getterFor = function (TYPE) {
+  return function (it) {
+    var state;
+    if (!isObject(it) || (state = get(it)).type !== TYPE) {
+      throw TypeError('Incompatible receiver, ' + TYPE + ' required');
+    } return state;
+  };
+};
+
+if (NATIVE_WEAK_MAP || shared.state) {
+  var store = shared.state || (shared.state = new WeakMap());
+  var wmget = uncurryThis(store.get);
+  var wmhas = uncurryThis(store.has);
+  var wmset = uncurryThis(store.set);
+  set = function (it, metadata) {
+    if (wmhas(store, it)) throw TypeError(OBJECT_ALREADY_INITIALIZED);
+    metadata.facade = it;
+    wmset(store, it, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return wmget(store, it) || {};
+  };
+  has = function (it) {
+    return wmhas(store, it);
+  };
+} else {
+  var STATE = sharedKey('state');
+  hiddenKeys[STATE] = true;
+  set = function (it, metadata) {
+    if (hasOwn(it, STATE)) throw TypeError(OBJECT_ALREADY_INITIALIZED);
+    metadata.facade = it;
+    createNonEnumerableProperty(it, STATE, metadata);
+    return metadata;
+  };
+  get = function (it) {
+    return hasOwn(it, STATE) ? it[STATE] : {};
+  };
+  has = function (it) {
+    return hasOwn(it, STATE);
+  };
+}
+
+module.exports = {
+  set: set,
+  get: get,
+  has: has,
+  enforce: enforce,
+  getterFor: getterFor
+};
+
+
+/***/ }),
+
+/***/ "7156":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isCallable = __webpack_require__("1626");
+var isObject = __webpack_require__("861d");
+var setPrototypeOf = __webpack_require__("d2bb");
+
+// makes subclassing work correct for wrapped built-ins
+module.exports = function ($this, dummy, Wrapper) {
+  var NewTarget, NewTargetPrototype;
+  if (
+    // it can work only with native `setPrototypeOf`
+    setPrototypeOf &&
+    // we haven't completely correct pre-ES6 way for getting `new.target`, so use this
+    isCallable(NewTarget = dummy.constructor) &&
+    NewTarget !== Wrapper &&
+    isObject(NewTargetPrototype = NewTarget.prototype) &&
+    NewTargetPrototype !== Wrapper.prototype
+  ) setPrototypeOf($this, NewTargetPrototype);
+  return $this;
+};
+
+
+/***/ }),
+
+/***/ "7234":
+/***/ (function(module, exports) {
+
+// we can't use just `it == null` since of `document.all` special case
+// https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot-aec
+module.exports = function (it) {
+  return it === null || it === undefined;
+};
+
+
+/***/ }),
+
+/***/ "7418":
+/***/ (function(module, exports) {
+
+// eslint-disable-next-line es/no-object-getownpropertysymbols -- safe
+exports.f = Object.getOwnPropertySymbols;
+
+
+/***/ }),
+
+/***/ "7839":
+/***/ (function(module, exports) {
+
+// IE8- don't enum bug keys
+module.exports = [
+  'constructor',
+  'hasOwnProperty',
+  'isPrototypeOf',
+  'propertyIsEnumerable',
+  'toLocaleString',
+  'toString',
+  'valueOf'
+];
+
+
+/***/ }),
+
+/***/ "7b0b":
+/***/ (function(module, exports, __webpack_require__) {
+
+var requireObjectCoercible = __webpack_require__("1d80");
+
+var $Object = Object;
+
+// `ToObject` abstract operation
+// https://tc39.es/ecma262/#sec-toobject
+module.exports = function (argument) {
+  return $Object(requireObjectCoercible(argument));
+};
+
+
+/***/ }),
+
+/***/ "825a":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__("861d");
+
+var $String = String;
+var $TypeError = TypeError;
+
+// `Assert: Type(argument) is Object`
+module.exports = function (argument) {
+  if (isObject(argument)) return argument;
+  throw $TypeError($String(argument) + ' is not an object');
+};
+
+
+/***/ }),
+
+/***/ "83ab":
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__("d039");
+
+// Detect IE8's incomplete defineProperty implementation
+module.exports = !fails(function () {
+  // eslint-disable-next-line es/no-object-defineproperty -- required for testing
+  return Object.defineProperty({}, 1, { get: function () { return 7; } })[1] != 7;
+});
+
+
+/***/ }),
+
+/***/ "861d":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isCallable = __webpack_require__("1626");
+var $documentAll = __webpack_require__("8ea1");
+
+var documentAll = $documentAll.all;
+
+module.exports = $documentAll.IS_HTMLDDA ? function (it) {
+  return typeof it == 'object' ? it !== null : isCallable(it) || it === documentAll;
+} : function (it) {
+  return typeof it == 'object' ? it !== null : isCallable(it);
+};
+
+
+/***/ }),
+
+/***/ "8925":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+var isCallable = __webpack_require__("1626");
+var store = __webpack_require__("c6cd");
+
+var functionToString = uncurryThis(Function.toString);
+
+// this helper broken in `core-js@3.4.1-3.4.4`, so we can't use `shared` helper
+if (!isCallable(store.inspectSource)) {
+  store.inspectSource = function (it) {
+    return functionToString(it);
+  };
+}
+
+module.exports = store.inspectSource;
+
+
+/***/ }),
+
+/***/ "8ea1":
+/***/ (function(module, exports) {
+
+var documentAll = typeof document == 'object' && document.all;
+
+// https://tc39.es/ecma262/#sec-IsHTMLDDA-internal-slot
+var IS_HTMLDDA = typeof documentAll == 'undefined' && documentAll !== undefined;
+
+module.exports = {
+  all: documentAll,
+  IS_HTMLDDA: IS_HTMLDDA
+};
+
+
+/***/ }),
+
+/***/ "90e3":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+
+var id = 0;
+var postfix = Math.random();
+var toString = uncurryThis(1.0.toString);
+
+module.exports = function (key) {
+  return 'Symbol(' + (key === undefined ? '' : key) + ')_' + toString(++id + postfix, 36);
+};
+
+
+/***/ }),
+
+/***/ "9112":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var definePropertyModule = __webpack_require__("9bf2");
+var createPropertyDescriptor = __webpack_require__("5c6c");
+
+module.exports = DESCRIPTORS ? function (object, key, value) {
+  return definePropertyModule.f(object, key, createPropertyDescriptor(1, value));
+} : function (object, key, value) {
+  object[key] = value;
+  return object;
+};
+
+
+/***/ }),
+
+/***/ "94ca":
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__("d039");
+var isCallable = __webpack_require__("1626");
+
+var replacement = /#|\.prototype\./;
+
+var isForced = function (feature, detection) {
+  var value = data[normalize(feature)];
+  return value == POLYFILL ? true
+    : value == NATIVE ? false
+    : isCallable(detection) ? fails(detection)
+    : !!detection;
+};
+
+var normalize = isForced.normalize = function (string) {
+  return String(string).replace(replacement, '.').toLowerCase();
+};
+
+var data = isForced.data = {};
+var NATIVE = isForced.NATIVE = 'N';
+var POLYFILL = isForced.POLYFILL = 'P';
+
+module.exports = isForced;
+
+
+/***/ }),
+
+/***/ "9bf2":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var IE8_DOM_DEFINE = __webpack_require__("0cfb");
+var V8_PROTOTYPE_DEFINE_BUG = __webpack_require__("aed9");
+var anObject = __webpack_require__("825a");
+var toPropertyKey = __webpack_require__("a04b");
+
+var $TypeError = TypeError;
+// eslint-disable-next-line es/no-object-defineproperty -- safe
+var $defineProperty = Object.defineProperty;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var $getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var ENUMERABLE = 'enumerable';
+var CONFIGURABLE = 'configurable';
+var WRITABLE = 'writable';
+
+// `Object.defineProperty` method
+// https://tc39.es/ecma262/#sec-object.defineproperty
+exports.f = DESCRIPTORS ? V8_PROTOTYPE_DEFINE_BUG ? function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPropertyKey(P);
+  anObject(Attributes);
+  if (typeof O === 'function' && P === 'prototype' && 'value' in Attributes && WRITABLE in Attributes && !Attributes[WRITABLE]) {
+    var current = $getOwnPropertyDescriptor(O, P);
+    if (current && current[WRITABLE]) {
+      O[P] = Attributes.value;
+      Attributes = {
+        configurable: CONFIGURABLE in Attributes ? Attributes[CONFIGURABLE] : current[CONFIGURABLE],
+        enumerable: ENUMERABLE in Attributes ? Attributes[ENUMERABLE] : current[ENUMERABLE],
+        writable: false
+      };
+    }
+  } return $defineProperty(O, P, Attributes);
+} : $defineProperty : function defineProperty(O, P, Attributes) {
+  anObject(O);
+  P = toPropertyKey(P);
+  anObject(Attributes);
+  if (IE8_DOM_DEFINE) try {
+    return $defineProperty(O, P, Attributes);
+  } catch (error) { /* empty */ }
+  if ('get' in Attributes || 'set' in Attributes) throw $TypeError('Accessors not supported');
+  if ('value' in Attributes) O[P] = Attributes.value;
+  return O;
+};
+
+
+/***/ }),
+
+/***/ "a04b":
+/***/ (function(module, exports, __webpack_require__) {
+
+var toPrimitive = __webpack_require__("c04e");
+var isSymbol = __webpack_require__("d9b5");
+
+// `ToPropertyKey` abstract operation
+// https://tc39.es/ecma262/#sec-topropertykey
+module.exports = function (argument) {
+  var key = toPrimitive(argument, 'string');
+  return isSymbol(key) ? key : key + '';
+};
+
+
+/***/ }),
+
+/***/ "ab36":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__("861d");
+var createNonEnumerableProperty = __webpack_require__("9112");
+
+// `InstallErrorCause` abstract operation
+// https://tc39.es/proposal-error-cause/#sec-errorobjects-install-error-cause
+module.exports = function (O, options) {
+  if (isObject(options) && 'cause' in options) {
+    createNonEnumerableProperty(O, 'cause', options.cause);
+  }
+};
+
+
+/***/ }),
+
+/***/ "aeb0":
+/***/ (function(module, exports, __webpack_require__) {
+
+var defineProperty = __webpack_require__("9bf2").f;
+
+module.exports = function (Target, Source, key) {
+  key in Target || defineProperty(Target, key, {
+    configurable: true,
+    get: function () { return Source[key]; },
+    set: function (it) { Source[key] = it; }
+  });
+};
+
+
+/***/ }),
+
+/***/ "aed9":
+/***/ (function(module, exports, __webpack_require__) {
+
+var DESCRIPTORS = __webpack_require__("83ab");
+var fails = __webpack_require__("d039");
+
+// V8 ~ Chrome 36-
+// https://bugs.chromium.org/p/v8/issues/detail?id=3334
+module.exports = DESCRIPTORS && fails(function () {
+  // eslint-disable-next-line es/no-object-defineproperty -- required for testing
+  return Object.defineProperty(function () { /* empty */ }, 'prototype', {
+    value: 42,
+    writable: false
+  }).prototype != 42;
+});
+
+
+/***/ }),
+
+/***/ "b42e":
+/***/ (function(module, exports) {
+
+var ceil = Math.ceil;
+var floor = Math.floor;
+
+// `Math.trunc` method
+// https://tc39.es/ecma262/#sec-math.trunc
+// eslint-disable-next-line es/no-math-trunc -- safe
+module.exports = Math.trunc || function trunc(x) {
+  var n = +x;
+  return (n > 0 ? floor : ceil)(n);
+};
+
+
+/***/ }),
+
+/***/ "b622":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var shared = __webpack_require__("5692");
+var hasOwn = __webpack_require__("1a2d");
+var uid = __webpack_require__("90e3");
+var NATIVE_SYMBOL = __webpack_require__("04f8");
+var USE_SYMBOL_AS_UID = __webpack_require__("fdbf");
+
+var WellKnownSymbolsStore = shared('wks');
+var Symbol = global.Symbol;
+var symbolFor = Symbol && Symbol['for'];
+var createWellKnownSymbol = USE_SYMBOL_AS_UID ? Symbol : Symbol && Symbol.withoutSetter || uid;
+
+module.exports = function (name) {
+  if (!hasOwn(WellKnownSymbolsStore, name) || !(NATIVE_SYMBOL || typeof WellKnownSymbolsStore[name] == 'string')) {
+    var description = 'Symbol.' + name;
+    if (NATIVE_SYMBOL && hasOwn(Symbol, name)) {
+      WellKnownSymbolsStore[name] = Symbol[name];
+    } else if (USE_SYMBOL_AS_UID && symbolFor) {
+      WellKnownSymbolsStore[name] = symbolFor(description);
+    } else {
+      WellKnownSymbolsStore[name] = createWellKnownSymbol(description);
+    }
+  } return WellKnownSymbolsStore[name];
+};
+
+
+/***/ }),
+
+/***/ "b980":
+/***/ (function(module, exports, __webpack_require__) {
+
+var fails = __webpack_require__("d039");
+var createPropertyDescriptor = __webpack_require__("5c6c");
+
+module.exports = !fails(function () {
+  var error = Error('a');
+  if (!('stack' in error)) return true;
+  // eslint-disable-next-line es/no-object-defineproperty -- safe
+  Object.defineProperty(error, 'stack', createPropertyDescriptor(1, 7));
+  return error.stack !== 7;
+});
+
+
+/***/ }),
+
+/***/ "c04e":
+/***/ (function(module, exports, __webpack_require__) {
+
+var call = __webpack_require__("c65b");
+var isObject = __webpack_require__("861d");
+var isSymbol = __webpack_require__("d9b5");
+var getMethod = __webpack_require__("dc4a");
+var ordinaryToPrimitive = __webpack_require__("485a");
+var wellKnownSymbol = __webpack_require__("b622");
+
+var $TypeError = TypeError;
+var TO_PRIMITIVE = wellKnownSymbol('toPrimitive');
+
+// `ToPrimitive` abstract operation
+// https://tc39.es/ecma262/#sec-toprimitive
+module.exports = function (input, pref) {
+  if (!isObject(input) || isSymbol(input)) return input;
+  var exoticToPrim = getMethod(input, TO_PRIMITIVE);
+  var result;
+  if (exoticToPrim) {
+    if (pref === undefined) pref = 'default';
+    result = call(exoticToPrim, input, pref);
+    if (!isObject(result) || isSymbol(result)) return result;
+    throw $TypeError("Can't convert object to primitive value");
+  }
+  if (pref === undefined) pref = 'number';
+  return ordinaryToPrimitive(input, pref);
+};
+
+
+/***/ }),
+
+/***/ "c430":
+/***/ (function(module, exports) {
+
+module.exports = false;
+
+
+/***/ }),
+
+/***/ "c65b":
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_BIND = __webpack_require__("40d5");
+
+var call = Function.prototype.call;
+
+module.exports = NATIVE_BIND ? call.bind(call) : function () {
+  return call.apply(call, arguments);
+};
+
+
+/***/ }),
+
+/***/ "c6b6":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+
+var toString = uncurryThis({}.toString);
+var stringSlice = uncurryThis(''.slice);
+
+module.exports = function (it) {
+  return stringSlice(toString(it), 8, -1);
+};
+
+
+/***/ }),
+
+/***/ "c6cd":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var defineGlobalProperty = __webpack_require__("6374");
+
+var SHARED = '__core-js_shared__';
+var store = global[SHARED] || defineGlobalProperty(SHARED, {});
+
+module.exports = store;
+
+
+/***/ }),
+
+/***/ "c8ba":
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ "ca84":
+/***/ (function(module, exports, __webpack_require__) {
+
+var uncurryThis = __webpack_require__("e330");
+var hasOwn = __webpack_require__("1a2d");
+var toIndexedObject = __webpack_require__("fc6a");
+var indexOf = __webpack_require__("4d64").indexOf;
+var hiddenKeys = __webpack_require__("d012");
+
+var push = uncurryThis([].push);
+
+module.exports = function (object, names) {
+  var O = toIndexedObject(object);
+  var i = 0;
+  var result = [];
+  var key;
+  for (key in O) !hasOwn(hiddenKeys, key) && hasOwn(O, key) && push(result, key);
+  // Don't enum bug & hidden keys
+  while (names.length > i) if (hasOwn(O, key = names[i++])) {
+    ~indexOf(result, key) || push(result, key);
+  }
+  return result;
+};
+
+
+/***/ }),
+
+/***/ "cb2d":
+/***/ (function(module, exports, __webpack_require__) {
+
+var isCallable = __webpack_require__("1626");
+var definePropertyModule = __webpack_require__("9bf2");
+var makeBuiltIn = __webpack_require__("13d2");
+var defineGlobalProperty = __webpack_require__("6374");
+
+module.exports = function (O, key, value, options) {
+  if (!options) options = {};
+  var simple = options.enumerable;
+  var name = options.name !== undefined ? options.name : key;
+  if (isCallable(value)) makeBuiltIn(value, name, options);
+  if (options.global) {
+    if (simple) O[key] = value;
+    else defineGlobalProperty(key, value);
+  } else {
+    try {
+      if (!options.unsafe) delete O[key];
+      else if (O[key]) simple = true;
+    } catch (error) { /* empty */ }
+    if (simple) O[key] = value;
+    else definePropertyModule.f(O, key, {
+      value: value,
+      enumerable: false,
+      configurable: !options.nonConfigurable,
+      writable: !options.nonWritable
+    });
+  } return O;
+};
+
+
+/***/ }),
+
+/***/ "cc12":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var isObject = __webpack_require__("861d");
+
+var document = global.document;
+// typeof document.createElement is 'object' in old IE
+var EXISTS = isObject(document) && isObject(document.createElement);
+
+module.exports = function (it) {
+  return EXISTS ? document.createElement(it) : {};
+};
+
+
+/***/ }),
+
+/***/ "cdce":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var isCallable = __webpack_require__("1626");
+
+var WeakMap = global.WeakMap;
+
+module.exports = isCallable(WeakMap) && /native code/.test(String(WeakMap));
+
+
+/***/ }),
+
+/***/ "d012":
+/***/ (function(module, exports) {
+
+module.exports = {};
+
+
+/***/ }),
+
+/***/ "d039":
+/***/ (function(module, exports) {
+
+module.exports = function (exec) {
+  try {
+    return !!exec();
+  } catch (error) {
+    return true;
+  }
+};
+
+
+/***/ }),
+
+/***/ "d066":
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__("da84");
+var isCallable = __webpack_require__("1626");
+
+var aFunction = function (argument) {
+  return isCallable(argument) ? argument : undefined;
+};
+
+module.exports = function (namespace, method) {
+  return arguments.length < 2 ? aFunction(global[namespace]) : global[namespace] && global[namespace][method];
+};
+
+
+/***/ }),
+
+/***/ "d1e7":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $propertyIsEnumerable = {}.propertyIsEnumerable;
+// eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+
+// Nashorn ~ JDK8 bug
+var NASHORN_BUG = getOwnPropertyDescriptor && !$propertyIsEnumerable.call({ 1: 2 }, 1);
+
+// `Object.prototype.propertyIsEnumerable` method implementation
+// https://tc39.es/ecma262/#sec-object.prototype.propertyisenumerable
+exports.f = NASHORN_BUG ? function propertyIsEnumerable(V) {
+  var descriptor = getOwnPropertyDescriptor(this, V);
+  return !!descriptor && descriptor.enumerable;
+} : $propertyIsEnumerable;
+
+
+/***/ }),
+
+/***/ "d2bb":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-proto -- safe */
+var uncurryThis = __webpack_require__("e330");
+var anObject = __webpack_require__("825a");
+var aPossiblePrototype = __webpack_require__("3bbe");
+
+// `Object.setPrototypeOf` method
+// https://tc39.es/ecma262/#sec-object.setprototypeof
+// Works with __proto__ only. Old v8 can't work with null proto objects.
+// eslint-disable-next-line es/no-object-setprototypeof -- safe
+module.exports = Object.setPrototypeOf || ('__proto__' in {} ? function () {
+  var CORRECT_SETTER = false;
+  var test = {};
+  var setter;
+  try {
+    // eslint-disable-next-line es/no-object-getownpropertydescriptor -- safe
+    setter = uncurryThis(Object.getOwnPropertyDescriptor(Object.prototype, '__proto__').set);
+    setter(test, []);
+    CORRECT_SETTER = test instanceof Array;
+  } catch (error) { /* empty */ }
+  return function setPrototypeOf(O, proto) {
+    anObject(O);
+    aPossiblePrototype(proto);
+    if (CORRECT_SETTER) setter(O, proto);
+    else O.__proto__ = proto;
+    return O;
+  };
+}() : undefined);
+
+
+/***/ }),
+
+/***/ "d9b5":
+/***/ (function(module, exports, __webpack_require__) {
+
+var getBuiltIn = __webpack_require__("d066");
+var isCallable = __webpack_require__("1626");
+var isPrototypeOf = __webpack_require__("3a9b");
+var USE_SYMBOL_AS_UID = __webpack_require__("fdbf");
+
+var $Object = Object;
+
+module.exports = USE_SYMBOL_AS_UID ? function (it) {
+  return typeof it == 'symbol';
+} : function (it) {
+  var $Symbol = getBuiltIn('Symbol');
+  return isCallable($Symbol) && isPrototypeOf($Symbol.prototype, $Object(it));
+};
+
+
+/***/ }),
+
+/***/ "d9e2":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable no-unused-vars -- required for functions `.length` */
+var $ = __webpack_require__("23e7");
+var global = __webpack_require__("da84");
+var apply = __webpack_require__("2ba4");
+var wrapErrorConstructorWithCause = __webpack_require__("e5cb");
+
+var WEB_ASSEMBLY = 'WebAssembly';
+var WebAssembly = global[WEB_ASSEMBLY];
+
+var FORCED = Error('e', { cause: 7 }).cause !== 7;
+
+var exportGlobalErrorCauseWrapper = function (ERROR_NAME, wrapper) {
+  var O = {};
+  O[ERROR_NAME] = wrapErrorConstructorWithCause(ERROR_NAME, wrapper, FORCED);
+  $({ global: true, constructor: true, arity: 1, forced: FORCED }, O);
+};
+
+var exportWebAssemblyErrorCauseWrapper = function (ERROR_NAME, wrapper) {
+  if (WebAssembly && WebAssembly[ERROR_NAME]) {
+    var O = {};
+    O[ERROR_NAME] = wrapErrorConstructorWithCause(WEB_ASSEMBLY + '.' + ERROR_NAME, wrapper, FORCED);
+    $({ target: WEB_ASSEMBLY, stat: true, constructor: true, arity: 1, forced: FORCED }, O);
+  }
+};
+
+// https://github.com/tc39/proposal-error-cause
+exportGlobalErrorCauseWrapper('Error', function (init) {
+  return function Error(message) { return apply(init, this, arguments); };
+});
+exportGlobalErrorCauseWrapper('EvalError', function (init) {
+  return function EvalError(message) { return apply(init, this, arguments); };
+});
+exportGlobalErrorCauseWrapper('RangeError', function (init) {
+  return function RangeError(message) { return apply(init, this, arguments); };
+});
+exportGlobalErrorCauseWrapper('ReferenceError', function (init) {
+  return function ReferenceError(message) { return apply(init, this, arguments); };
+});
+exportGlobalErrorCauseWrapper('SyntaxError', function (init) {
+  return function SyntaxError(message) { return apply(init, this, arguments); };
+});
+exportGlobalErrorCauseWrapper('TypeError', function (init) {
+  return function TypeError(message) { return apply(init, this, arguments); };
+});
+exportGlobalErrorCauseWrapper('URIError', function (init) {
+  return function URIError(message) { return apply(init, this, arguments); };
+});
+exportWebAssemblyErrorCauseWrapper('CompileError', function (init) {
+  return function CompileError(message) { return apply(init, this, arguments); };
+});
+exportWebAssemblyErrorCauseWrapper('LinkError', function (init) {
+  return function LinkError(message) { return apply(init, this, arguments); };
+});
+exportWebAssemblyErrorCauseWrapper('RuntimeError', function (init) {
+  return function RuntimeError(message) { return apply(init, this, arguments); };
+});
+
+
+/***/ }),
+
+/***/ "da84":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {var check = function (it) {
+  return it && it.Math == Math && it;
+};
+
+// https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
+module.exports =
+  // eslint-disable-next-line es/no-global-this -- safe
+  check(typeof globalThis == 'object' && globalThis) ||
+  check(typeof window == 'object' && window) ||
+  // eslint-disable-next-line no-restricted-globals -- safe
+  check(typeof self == 'object' && self) ||
+  check(typeof global == 'object' && global) ||
+  // eslint-disable-next-line no-new-func -- fallback
+  (function () { return this; })() || Function('return this')();
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("c8ba")))
+
+/***/ }),
+
+/***/ "dc4a":
+/***/ (function(module, exports, __webpack_require__) {
+
+var aCallable = __webpack_require__("59ed");
+var isNullOrUndefined = __webpack_require__("7234");
+
+// `GetMethod` abstract operation
+// https://tc39.es/ecma262/#sec-getmethod
+module.exports = function (V, P) {
+  var func = V[P];
+  return isNullOrUndefined(func) ? undefined : aCallable(func);
+};
+
+
+/***/ }),
+
+/***/ "e330":
+/***/ (function(module, exports, __webpack_require__) {
+
+var NATIVE_BIND = __webpack_require__("40d5");
+
+var FunctionPrototype = Function.prototype;
+var bind = FunctionPrototype.bind;
+var call = FunctionPrototype.call;
+var uncurryThis = NATIVE_BIND && bind.bind(call, call);
+
+module.exports = NATIVE_BIND ? function (fn) {
+  return fn && uncurryThis(fn);
+} : function (fn) {
+  return fn && function () {
+    return call.apply(fn, arguments);
+  };
+};
+
+
+/***/ }),
+
+/***/ "e391":
+/***/ (function(module, exports, __webpack_require__) {
+
+var toString = __webpack_require__("577e");
+
+module.exports = function (argument, $default) {
+  return argument === undefined ? arguments.length < 2 ? '' : $default : toString(argument);
+};
+
+
+/***/ }),
+
+/***/ "e5cb":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var getBuiltIn = __webpack_require__("d066");
+var hasOwn = __webpack_require__("1a2d");
+var createNonEnumerableProperty = __webpack_require__("9112");
+var isPrototypeOf = __webpack_require__("3a9b");
+var setPrototypeOf = __webpack_require__("d2bb");
+var copyConstructorProperties = __webpack_require__("e893");
+var proxyAccessor = __webpack_require__("aeb0");
+var inheritIfRequired = __webpack_require__("7156");
+var normalizeStringArgument = __webpack_require__("e391");
+var installErrorCause = __webpack_require__("ab36");
+var clearErrorStack = __webpack_require__("0d26");
+var ERROR_STACK_INSTALLABLE = __webpack_require__("b980");
+var DESCRIPTORS = __webpack_require__("83ab");
+var IS_PURE = __webpack_require__("c430");
+
+module.exports = function (FULL_NAME, wrapper, FORCED, IS_AGGREGATE_ERROR) {
+  var STACK_TRACE_LIMIT = 'stackTraceLimit';
+  var OPTIONS_POSITION = IS_AGGREGATE_ERROR ? 2 : 1;
+  var path = FULL_NAME.split('.');
+  var ERROR_NAME = path[path.length - 1];
+  var OriginalError = getBuiltIn.apply(null, path);
+
+  if (!OriginalError) return;
+
+  var OriginalErrorPrototype = OriginalError.prototype;
+
+  // V8 9.3- bug https://bugs.chromium.org/p/v8/issues/detail?id=12006
+  if (!IS_PURE && hasOwn(OriginalErrorPrototype, 'cause')) delete OriginalErrorPrototype.cause;
+
+  if (!FORCED) return OriginalError;
+
+  var BaseError = getBuiltIn('Error');
+
+  var WrappedError = wrapper(function (a, b) {
+    var message = normalizeStringArgument(IS_AGGREGATE_ERROR ? b : a, undefined);
+    var result = IS_AGGREGATE_ERROR ? new OriginalError(a) : new OriginalError();
+    if (message !== undefined) createNonEnumerableProperty(result, 'message', message);
+    if (ERROR_STACK_INSTALLABLE) createNonEnumerableProperty(result, 'stack', clearErrorStack(result.stack, 2));
+    if (this && isPrototypeOf(OriginalErrorPrototype, this)) inheritIfRequired(result, this, WrappedError);
+    if (arguments.length > OPTIONS_POSITION) installErrorCause(result, arguments[OPTIONS_POSITION]);
+    return result;
+  });
+
+  WrappedError.prototype = OriginalErrorPrototype;
+
+  if (ERROR_NAME !== 'Error') {
+    if (setPrototypeOf) setPrototypeOf(WrappedError, BaseError);
+    else copyConstructorProperties(WrappedError, BaseError, { name: true });
+  } else if (DESCRIPTORS && STACK_TRACE_LIMIT in OriginalError) {
+    proxyAccessor(WrappedError, OriginalError, STACK_TRACE_LIMIT);
+    proxyAccessor(WrappedError, OriginalError, 'prepareStackTrace');
+  }
+
+  copyConstructorProperties(WrappedError, OriginalError);
+
+  if (!IS_PURE) try {
+    // Safari 13- bug: WebAssembly errors does not have a proper `.name`
+    if (OriginalErrorPrototype.name !== ERROR_NAME) {
+      createNonEnumerableProperty(OriginalErrorPrototype, 'name', ERROR_NAME);
+    }
+    OriginalErrorPrototype.constructor = WrappedError;
+  } catch (error) { /* empty */ }
+
+  return WrappedError;
+};
+
+
+/***/ }),
+
+/***/ "e893":
+/***/ (function(module, exports, __webpack_require__) {
+
+var hasOwn = __webpack_require__("1a2d");
+var ownKeys = __webpack_require__("56ef");
+var getOwnPropertyDescriptorModule = __webpack_require__("06cf");
+var definePropertyModule = __webpack_require__("9bf2");
+
+module.exports = function (target, source, exceptions) {
+  var keys = ownKeys(source);
+  var defineProperty = definePropertyModule.f;
+  var getOwnPropertyDescriptor = getOwnPropertyDescriptorModule.f;
+  for (var i = 0; i < keys.length; i++) {
+    var key = keys[i];
+    if (!hasOwn(target, key) && !(exceptions && hasOwn(exceptions, key))) {
+      defineProperty(target, key, getOwnPropertyDescriptor(source, key));
+    }
+  }
+};
+
+
+/***/ }),
+
+/***/ "f5df":
+/***/ (function(module, exports, __webpack_require__) {
+
+var TO_STRING_TAG_SUPPORT = __webpack_require__("00ee");
+var isCallable = __webpack_require__("1626");
+var classofRaw = __webpack_require__("c6b6");
+var wellKnownSymbol = __webpack_require__("b622");
+
+var TO_STRING_TAG = wellKnownSymbol('toStringTag');
+var $Object = Object;
+
+// ES3 wrong here
+var CORRECT_ARGUMENTS = classofRaw(function () { return arguments; }()) == 'Arguments';
+
+// fallback for IE11 Script Access Denied error
+var tryGet = function (it, key) {
+  try {
+    return it[key];
+  } catch (error) { /* empty */ }
+};
+
+// getting tag from ES6+ `Object.prototype.toString`
+module.exports = TO_STRING_TAG_SUPPORT ? classofRaw : function (it) {
+  var O, tag, result;
+  return it === undefined ? 'Undefined' : it === null ? 'Null'
+    // @@toStringTag case
+    : typeof (tag = tryGet(O = $Object(it), TO_STRING_TAG)) == 'string' ? tag
+    // builtinTag case
+    : CORRECT_ARGUMENTS ? classofRaw(O)
+    // ES3 arguments fallback
+    : (result = classofRaw(O)) == 'Object' && isCallable(O.callee) ? 'Arguments' : result;
+};
+
+
+/***/ }),
+
+/***/ "f772":
+/***/ (function(module, exports, __webpack_require__) {
+
+var shared = __webpack_require__("5692");
+var uid = __webpack_require__("90e3");
+
+var keys = shared('keys');
+
+module.exports = function (key) {
+  return keys[key] || (keys[key] = uid(key));
+};
+
+
+/***/ }),
+
+/***/ "fc6a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// toObject with fallback for non-array-like ES3 strings
+var IndexedObject = __webpack_require__("44ad");
+var requireObjectCoercible = __webpack_require__("1d80");
+
+module.exports = function (it) {
+  return IndexedObject(requireObjectCoercible(it));
+};
+
+
+/***/ }),
+
+/***/ "fdbf":
+/***/ (function(module, exports, __webpack_require__) {
+
+/* eslint-disable es/no-symbol -- required for testing */
+var NATIVE_SYMBOL = __webpack_require__("04f8");
+
+module.exports = NATIVE_SYMBOL
+  && !Symbol.sham
+  && typeof Symbol.iterator == 'symbol';
+
+
+/***/ })
+
+/******/ });
+
+})()</script><script async="false">;(() => {
+
+  window.liquality = {"evmChains":[{"chain":"ethereum","asset":"ETH","network":{"name":"ethereum_mainnet","coinType":"60","networkId":1,"chainId":1,"isTestnet":false,"rpcUrl":"https://mainnet.infura.io/v3/da99ebc8c0964bb8bb757b6f8cc40f1f"}},{"chain":"rsk","asset":"RBTC","network":{"name":"rsk_mainnet","coinType":"60","networkId":30,"chainId":30,"isTestnet":false,"rpcUrl":"https://mainnet.sovryn.app/rpc"}},{"chain":"bsc","asset":"BNB","network":{"name":"bsc_mainnet","coinType":"60","networkId":56,"chainId":56,"isTestnet":false,"rpcUrl":"https://bsc-dataseed.binance.org"}},{"chain":"polygon","asset":"MATIC","network":{"name":"polygon_mainnet","coinType":"60","networkId":137,"chainId":137,"isTestnet":false,"rpcUrl":"https://polygon-rpc.com"}},{"chain":"arbitrum","asset":"ARBETH","network":{"name":"arbitrum_mainnet","coinType":"60","networkId":42161,"chainId":42161,"isTestnet":false,"rpcUrl":"https://arbitrum-mainnet.infura.io/v3/da99ebc8c0964bb8bb757b6f8cc40f1f"}},{"chain":"fuse","asset":"FUSE","network":{"name":"fuse_mainnet","coinType":"60","networkId":122,"chainId":122,"isTestnet":false,"rpcUrl":"https://rpc.fuse.io"}},{"chain":"avalanche","asset":"AVAX","network":{"name":"avalanche_mainnet","coinType":"60","networkId":43114,"chainId":43114,"isTestnet":false,"rpcUrl":"https://nd-121-949-157.p2pify.com/b730890d3262b7c31f27895a698f46ed/ext/bc/C/rpc"}},{"chain":"optimism","asset":"OPTETH","network":{"name":"optimism_mainnet","coinType":"60","networkId":10,"chainId":10,"isTestnet":false,"rpcUrl":"https://optimism-mainnet.infura.io/v3/da99ebc8c0964bb8bb757b6f8cc40f1f"}}],"globalEthereum":{"inject":true,"override":true,"ethereumChain":"ethereum"}};
+
+})()</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Vill din elevkår ta sig till nästa nivå? Använd då kårkort där varje medlem får sitt eget digitala kårkort!">
+<meta name="author" content="Samuel Andersson">
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://medlem.karkortet.se/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://medlem.karkortet.se/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://medlem.karkortet.se/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://medlem.karkortet.se/favicon/site.webmanifest">
+<link rel="mask-icon" href="https://medlem.karkortet.se/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+<link rel="stylesheet" href="./FINALHULE_files/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="./FINALHULE_files/flaticon.css" type="text/css">
+<link rel="stylesheet" href="./FINALHULE_files/all.css" type="text/css">
+<link rel="stylesheet" href="./FINALHULE_files/icofont.css" type="text/css">
+<link rel="stylesheet" href="./FINALHULE_files/animate.min.css" type="text/css">
+<link rel="stylesheet" href="./FINALHULE_files/style.css" type="text/css">
+<link rel="stylesheet" href="./FINALHULE_files/responsive.css" type="text/css">
+<script async="" src="./FINALHULE_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-166281152-3');
+</script>
+
+  <title>Medlemskort - Kårkortet</title>
+
+  <link href="./FINALHULE_files/select2.min.css" rel="stylesheet">
+
+
+  
+   
+
+<style media="screen">
+
+.btn-hero {
+    background-color: #1EA5C5 !important;
+    color: #000000 !important;
+}
+
+.btn-hero:hover {
+    background-color: #147585 !important;  
+    color: #FFFFFF !important;
+}
+
+.nav-link:hover {
+    color: #1EA5C5 !important;
+}
+
+.form-control:hover, .form-control:focus {
+    box-shadow: 0px 5px 35px 0px rgba(30, 165, 197, 0.15);
+}
+
+.form-control:focus {
+    border-color: #1EA5C5 !important;
+}
+
+.page-banner-area.page-interest {
+        background: url("https://medlem.karkortet.se/assets/img/bg/interest.jpg") no-repeat;
+}
+
+.card_member .back img {
+border: 5px solid #1EA5C5;
+}
+
+.member_card_text {
+    color: black;
+
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #1EA5C5 !important;
+    color: #000000 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #495057 !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border: 1px solid #eee;
+}
+
+.select2-container .select2-selection--single {
+    height: 50px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 50px;
+    padding-left: 20px;
+}
+
+.select2-container {
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.select2-container:hover {
+    box-shadow: 0px 5px 35px 0px rgba(30, 165, 197, 0.15);
+}
+
+.swal-button:not([disabled]) {
+    background-color: #1EA5C5;
+    color: #000000;
+}
+.swal-button:not([disabled]):hover {
+    background-color: #147585;
+    color: #FFFFFF;
+}
+
+.swal-button:focus {
+    box-shadow: 0 0 0 1px #fff,0 0 0 3px rgba(30, 165, 197,.29);
+}
+
+.swal-icon--success__line {
+    background-color: #1EA5C5;
+}
+
+.swal-icon--success__line--tip {
+    background-color: #1EA5C5;
+}
+
+.swal-icon--success__ring {
+    border: 4px solid #1EA5C5;
+}
+
+.event_attend_btn {
+    color: #1EA5C5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.event_attend_btn:hover {
+    background-color: #1EA5C5;
+    color: #000000;
+}
+
+.downloadable-files > a {
+    text-decoration-color #1EA5C5;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: #1EA5C5;
+}
+
+.downloadable-files > a:hover {
+    color: #147585 !important ;
+    text-decoration-color: #147585 !important;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+.proper-link {
+    text-decoration-color #1EA5C5;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: #1EA5C5;
+}
+
+.proper-link:hover {
+    color: #147585 !important ;
+    text-decoration-color: #147585 !important;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* H2 GRADIENT */
+
+
+.badge-union {
+    color: #000000;
+    background-color: #1EA5C5;
+}
+
+.bottom_navbar {
+  background-color: #1EA5C5;
+}
+
+.bottom_navbar a {
+    color: #000000;
+}
+
+/* Change the color of links on hover */
+.bottom_navbar a:hover {
+  background-color: #147585;
+  color: #FFFFFF;
+}
+
+/* Add a green background color to the active link */
+.bottom_navbar a.active {
+  background-color: #147585;
+  color: #FFFFFF;
+}
+
+</style><script type="text/javascript" charset="UTF-8" src="./FINALHULE_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./FINALHULE_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./FINALHULE_files/common(1).js"></script><script type="text/javascript" charset="UTF-8" src="./FINALHULE_files/util(1).js"></script><script type="text/javascript" charset="UTF-8" src="./FINALHULE_files/common(2).js"></script><script type="text/javascript" charset="UTF-8" src="./FINALHULE_files/util(2).js"></script></head>
+
+<body data-spy="scroll" data-target=".fixed-top" cz-shortcut-listen="true">
+  
+  <nav class="navbar navbar-expand-lg fixed-top trans-navigation header-white">
+  <div class="container">
+    <a class="navbar-brand" href="https://medlem.karkortet.se/">
+      <img src="./FINALHULE_files/logo_new.png" alt="" style="width: 150px;" class="img-fluid b-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <i class="fa fa-bars"></i>
+      </span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <ul class="navbar-nav ">
+        <!-- <li class="nav-item dropdown"> -->
+          <!-- <a class="nav-link dropdown-toggle" href="index.php" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hem</a></li> -->
+          <!-- <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+            <a class="dropdown-item " href="index.php">
+              Home-1
+            </a>
+            <a class="dropdown-item " href="index-2.php">
+              Home-2
+            </a>
+            <a class="dropdown-item " href="index-3.php" target="blank">
+              Onepage
+            </a>
+          </div> -->
+
+        <li class="nav-item"><a class="nav-link smoth-scroll" href="https://karkortet.se/">Vad är kårkortet?</a></li>
+        <!-- <li class="nav-item"><a class="nav-link smoth-scroll" href="omoss.php">Om oss</a></li> -->
+        <li class="nav-item"><a class="nav-link smoth-scroll" href="https://admin.karkortet.se/">Logga in som administratör</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <script>
+  function navbar() {
+        var x = document.getElementById("bottomnavbar");
+        if (x.className === "bottom_navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "bottom_navbar";
+        }
+      }
+</script>
+<div class="bottom_navbar" id="bottomnavbar">
+  <a href="https://medlem.karkortet.se/medlemskort"><i class="fa fa-id-card mr-1"></i>Medlemskort</a>
+    <a href="javascript:navbar();" class="icon">☰</a>
+</div>
+
+  <style>
+
+    .quick-admin {
+      background-image: linear-gradient(to right, #1EA5C5, #147585);
+      color: #000000;
+      transition: ease 1s;
+    }
+
+  </style>
+  
+  <div class="modal fade" id="active_sesions_modal" style="display: none;margin-top:120px;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Aktiva sessioner</h5>
+          <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+        </div>
+        <div class="modal-body">
+          <p>Nedan ser du dina aktiva sessioner. Du kan invalidera de genom att trycka på knappen för detta. Samtliga sessioner invalideras om en lösenordsändring skulle ske.</p>
+          <hr>
+          <!-- ACTIVE SESSIONS -->
+          <div id="session_43203" class="mb-1 p-4" style="border: 3px solid #1EA5C5"><p class="mb-0">c0ca068370d35cea9814d0612bad36227271ece2acdbf00f1cec44ce7bcf5d72</p><a href="javascript:invalidateSession(&#39;43203&#39;)" class="mt-2 mb-2 d-block btn btn-circled btn-hero btn-sm p-1 mt-0"><i class="fa fa-power-off"></i> Invalidera</a>
+                <small class="">Giltig till 2023-10-05 21:39:07</small>
+                </div><div id="session_43204" class="mb-1 p-4" style="border: 3px solid #1EA5C5"><p class="mb-0">38cc5395e89e5469aab0755a02e9527c8d9a5e9a1e009a2782c0d06d6c3e9b99 <span class="badge badge-dark">Nuvarande</span></p><a href="javascript:invalidateSession(&#39;43204&#39;, true)" class="mt-2 mb-2 d-block btn btn-circled btn-hero btn-sm p-1 mt-0"><i class="fa fa-power-off"></i> Invalidera</a>
+                <small class="">Giltig till 2023-10-05 21:42:15</small>
+                </div>        </div>
+        <div class="modal-footer">
+          <button id="closeBtn" type="button" class="btn btn-sm p-1 btn-hero btn-circled" data-dismiss="modal">Stäng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="qr_code_modal" style="display: none;margin-top:120px;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">QR-kod</h5>
+          <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="text-center" id="qrcode" title="https://admin.karkortet.se/verifieramedlemskap.php?id=40768&amp;seed=db525a50c49dddbff4ae25523f52a019f61d2737">
+            
+          <canvas width="300" height="300" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsCAYAAAB5fY51AAAAAXNSR0IArs4c6QAAIABJREFUeF7tnWF6LLfNdOON+N1HluL9OTux9/GtRN8z17F8p6epPqeryZaiys8YJIBCoQhyRnN/+fX3P97+9Yn+9/9++/duNP/3nz9f/v89W2o3SnlvvYFnFP92D+OH5jmKM4nJ1MPgRG1p7mmcFKNH3LR2Jibqn/pOuWDypLW8wu6XCtYzjKsIYfzQpk1JasTexJ8QleZuxGEvHioYppFNTNR/ijv1Y/JM6mvXVrA2iK0ihPFDm7aC9YoAxXlGI1ewrBwd21ewKljvCHTCOm4YM3lUsBiexqqCVcGqYP3rX//qhHV+OjWCk9ruCpYpXhJAeqKnV6X0LYPmTvMcXV/SPOl6avfIm9pSO7MnxX205956enVMr92j9ZQjJvd0z3S9iXVrO6pHBWuD1AyxpoWvYL1+QrxKSFb5qWAxGatgMZzU1QBuufsx+MrJg/qidmYamrEnxb0TFvsq0EoRpbWrYEGkOmE9A5VOfRUsRjw6hbPd/rJK90zXm1h7JTyJVgWrgnWGOilvZohDume6/gyOf6+JJ6wZd3wDiLGlQNE9Te50oqB26fXLnLQUj/QKkeJJ63t37iZOwwez79bWCCvlg6nnXuwmd/zoviqoGd9dubvB0sLTgqbY0TjvxtM0LM2J2pncTZy0xmZPKg4mpxlxmj0rWJtqGfAoIWgzzHgvunvKmIGnadoE+3QaMXGmOFFfaU4z4jR7VrAqWO8I0OZeeSKbBtuLi+ZE7UzuVETMtd/sSQ9Uk5MRFxqr2bOCVcGqYE36RI02bAWLf//uywhWcnrOOEFWvhetOv3NSWeakdqm09QMjiR7rnr3NYJnMKa8W5lnBevkhFXBojLE7Uwz0V1p09H90jdB48ccINTWYEyxq2DBqlJAO2G9fuOZvm+kZISl/GFmmonum3KkE9YzAlQYaX3MdPiw7YTVCesdgRlkTIlr1ifiYvxQEUzF3tSD2ppD4TPmWcGqYFWwjFqJB/oKFgOWim0nrAm/E5+cSum7mLn69krImimZ2ipYDONvI1gMjrEVJZQZo2lMVNhSETJvQxQPmqO1ozibOGkzUN8mJxMn3dfEOYNjFE+az7d6wzKg0JOSTh4zfKdkHMVE953RYAanGXHSBqO+TT4z8DRxVrBMtS5+GwpcD5dSQhmS0DhnkKmC9YpABesZE8NlylHaR4afoz2/9KM7FYf0WmWKTGOiZEhj75WQfYt6VY0pP0xzG46YPClHK1hpVeF6CrQpMnQ95cfVUpJTPGiO1o7ibOLshPVNJyxLPmJPFfyxFyUpJSiJ74zNnf5pw4/wNLEbX1scR7Wk/qndmfqdXZPgkfLb1NPkZ/rT7Ets4yshcWJtDCAVrGN0TdNQ7I24HEf4l4XZM42TxpTaGez3fCX8rmD99nrvTwtKizQqfFJQuvaKHO88/U3TpEJgfHXCOmYW5ajpj6RGs0TwGImPDzX86E4dGTvaNOnITMlgYh/ZVrCOUeyE9YoR5WgF6/c/3rbwpcp8TNmxipqC7Pm5UzAe8dzp39SNHhZGXJK6G+zuxNgcVBSP9ECeNQ1Rjpg8qa16w6KbzrAzgkWJ+533nCUECfZGBGnTfJU9jbjQ3FfuOaPnzZ67V0KzwdW231lcZuRewTr/PawZIrhSXJJDxUx9V2vAR/tVsDbozCjynXtWsCpYP1M8ndpWitOerwpWBesdASqsFcHzItgJK5O8ClYFq4IlPyyhwj7jin/3npnc5Kt/eXt7e/mUMN/2+h3ox757ns2nZ3vrE98jJCjpzTRzhS9auQTTVXjSXK6wuzsnetWjdldgMmOPChZAdRUZ00feChYo5iSTVRwZhU+FiNpNginetoIFIFxFxgoWKMbAJJn4znv9Z+UqjlSweiU85OsqMlawDksxNKhgvf7LSPTZ4W7sTNU7YQG0KlivICUkX4UnKO1lJnfnRK961O4yYC7eqIIFAF1Fxk5YoBi9Eu4iQIWI2p2vxNyVWLDSpk3HUwo0tXvASnMy08SqPWfENJdq53Y3ee55oHygdiPemDiNr21OlF+PdTQms+cextSP6bkRWypYoI9mFCTdM10P0v4UJibPCtYzAhS7CtYOczphnSPTrBP9U6gRCII23WgrOs1Qu1n1oHkacZmxZyesDQKf8Zu8tPBm5E33TNcDrfgUJibPTljnDkUjghWsCtahMJjTnzbtodNPYlDBei6EEReKndnzdsH6decH/GhQKxOljUiLdMVoT2OivZ/GPvJDr+M0zll2NE5q94iT2qbYp+tpz5mrb1onil0au+kj/MfPSfCmkQzIMyYPQzwDNMnL+DaHxYzakXysDY2T2lWwbAWOr5SUd4bLpo8qWPBKSktPC5qeSsaPaXCa5ww7Gie1q2BlVTI4bz1VsHaw74TFCJkQj3m4xorGSe0qWFldDM4VLIB1BQuAJN5x2G7zrGiDULsKVlYrg/O3EKwMTv6gOvJDC0LtjB9zb6f+R2O4uT6uIh69EqeHksGZ5k5jMn9qRXsh3ZPG/oiH8sZc/9I9b33DokUyQkABSU/f1I9ppArWM1qmQQzOFaxnBCjHTT3SPStYG5bSE4gCPxJG00gVrArW3wh0wrrxe1idsNiJVsGqYFWw/kKgE1YnrA/PDTPum6mxb1jnjutvP2Ht/SMU9LpjHnlXEd/4SfJMiZM2N2340eMpndrOtdU/q9J60PW0lrPeQ2fgZHKaUc8Ee6MNBrvdn5ehQJmgaPKj4NOYEoEwZEjypDmapqtgsXYwNWY7OqvUf7reHIBbW/ruO+KiQaqCBdAyZKhgnX9vMsQnTQNK+25iamz2pbap/3R9BWuDQNLIRpmNHzrRGDIY/yuarhMWkwxTY7ajs0r9p+srWBUsx1jxRb1eCV8RoIePwS7d0xAgFZx0fQWrgmX4+sM2bZD0TTH1n5DeTIJ7ftLYZzS8IUDqP12f1M5c5dM64d90NySh16I0eFok08i0cCZ2iochuLGlhDI5Uf+0Ro/9ZuCU5J7Gk+Jp/FNf6Z5mPeWI0ZYKFkDVNB0VPOD2MpOkadMgDHYzmiHJPY2Hioi5po5sqS+TE8Uu5UgFC15HkyLTtbMmB0MSSjyTE/VfwaJIvdql4pIenpQ35zMcrxxxsRMWQNs0XUoSEI42ocSrYD1DawTDTAm0gMY/rV26p1lP8zTYVbAAqhUsANLAxGA3oxkSsU7joSLSK+ErAsMJa+8foaCFWlmQ8y0z79M3czJsbU0jp1MbbVqTD42fcunhm8ZJ7Va+9xh+0r6hGJtnB+p7tOcq7Ed47v7xMyWZST5tOkOIre3KOKkvQ8YUu4Rko3xo/JRLFazXKlOMK1i//RvpA23OK0ZeFNDAaGWc1JchYwXrGYFEgEfCmGJs+DmDI/RgoL47Ye1UlIJsyGCuNXRfEyclRAXrFX0qRNSuV0KGsRkoVmHfKyFVp1BYK1jPAKZiT4U99dMJ6/yVdAb2UwQrPcECDVFLR4DS04KKkHlLSCdBQxIF1sbY5E6b/jO+i5l6UOxNntT/DC6ne9LYr7hmRo/uFSx2KlHBMOJAm4b6nlVLOiFdQWbaOBS7GYJjDjV6oD72pLbUzuxJcb+ixhWsDdqmwehEQUWjgvX6YY9pMNo4FSx2bU+wN2Jv/FSwKlgf6qkRUSrgs8hcwToWIiMOxnaL/awaV7AqWBWsAQKm6ahY9kqYTdFYsMxJS69V1G7UUXT9jEdF8+bzGeM0DZZOTtv19Epm3lFmiQu9zt9tRzmWxmlql3Bs5KeCBSYsU2Q6RlM707QmzoRM5vGUit2MAyCdZlI8V66vYG3Q7oTF6EeFiNpVsP58Ad40J50IDL8ZE9ZaGUySyCie5gAyh1onrE5Y7wiYpk0axJCeCnuvhOxtKBErM7FWsHYQoE3TNyxG0woWw+kzWtFeSGM3h03y7NA3rB306Oltikz3pHa9EvZKSPj3rQWLAPTReEib0ZzoNCZzH05OgCQeO1rfiWc6ndLYR8JMcV518o/iMf4NJlt/ac+kcdL+Mld0g8fuG1ZKEhpACn4aZwXrGMEK1jFGsw6gGfysYAVXrQoWa4Y7D4AKFqtRKgR0fdoz1I+ZeM11lNqqNyxWovG/I3dng9GRdZRjSogUO3qq0sLTeOxVJ6mxEUEav2lEijH13QmLf0JJeVvBguyrYD0DZcQlJWOCfQWLEdzgROtB6z4Sdnr4Pdbj72ExOOZZmaSSKFI/SZHN1JcSj5LM+ElwH11BqP/0kTedzNOpbUY9KBftdJ3UmfbXKPYK1gZ9CqgRl7QZZsQ0o0ESIlew2LWKCrh5g6pgpczdWZ82LQ0p9UNPtZR4M9anuVOMjdjTPDthvaJKuVjBSplbwXpCIBUSup7aTSjvjy0T/xWsCtYsXp7aNyGzcZj6oacanRzSRjbr09wNzvTNh+JUwfomgvX29vZ2lmiGJJSg6XhKBePhh77jpG9QFF8T+4yYjP9ESOjaK95hKE4zcqd1N4dKep02edL4TT2pDgy/1lDBeoaQFjQtEi0cJc1IgM16mrvxlU5tJiaaa3JQmdxpPBUs9veiD5x+qWBVsP5GwIgDFewKFpOtGTilwswiH3+BnK43uVewNqjSpqUNS4t2xfUnjYnmbqYMQ8YZU2evhOcOZMPbGbzrlXCnAskJlBZpRnOmMVWwWJumONPaGz/0YDA1ZmgsnrB+/f2P04/uNKH0RB6t/4zgU0woweh+H01olPhfGU+DExWMdM+V62mNTe50T8NlajviYvTzMqYgSfIVLIb0yk9tWUT56Uv9pHYzxDqNyayn/VXBgqhSQE3TzSAZjROmPTSjJ43xY7AzxDUxbG1X4ZnE+NF0mu67an2C8wzejOKhvO+EBZmTFB66+GFGC5fuOZpOK1jPCMw4/EztUtuEtxWsHfQpoAa8GSSjcaYEq2ClCF67fgaXro3w490S3pqeowddJ6zf2F+zpyRJCm98V7AMWvNtK1ivGNNeMFymtupKSD/upwld8UZAYzLUpnuaPJMTyJx0tPAGD7MnbXCKsYlzz3ZVjdI40/UU95EfUw9qS+1GzxMmJ/x7WIbMtGlN8QwodF+656pmqGDRyp2fBkYeUn6fj9ytNM1NhX0G79I9R6hUsDbIzCAu3TMt8iphNRMzPRRc21awzuJl6kFtqV0nrP+8/tGkKSQFepUQVLBM9Z5tV9XofITXrOyEtfNN9xmNvBJoSo0ZedLrMPVtTqWVTUvrafKkdaNXHbMfnYLNnjNsKe7/s29Yya81mPcASrJ0yqB+Rtca2vSGOOmeq5reNBjNiQq48W1sE+ySHD+KkYojtUv78ApxMzXZ2poaRb/WkAJlAjW2BJAKVkKx7E9ujNhnUX6+H2k0vKtgvVa/grXBhJ6qpunSPROxThvenL7Ul8GO7mnipP5p3WyMVIioXTo4zMDOYGL4XcGqYBluvdsmzUwF41RgoJ7Uf5Jjr4S8ehUsQFozmu9BT0n/WEuJP+P9jtPGWdKcUuxcVK/WphnoU0IaE52cqN23mrD2fg+LFjkhbSoYVxSJ5mkISjFZKXh78dM4Te4zbGnTpnjevZ5iZ+Kke464QLE3hxLtuVFMy744SpNKG8kUlIJHC3/FNJWIS5q7yXOVLW2aNPe711M8TZx0zwoWRIqSEW73w8wUtIJlkL3HlnJkZd1T3iSHssmTVqyCBZGiZITbVbDEN/+TpjH1SG0pR0wjzxCc1D/Fyfihe1awIFKUjHC7ClYFC1GlgvUMUwUL0Wbtr27St6H0BKOTi/Fz556wlNPM6KGW4nn3egqgiZPu+aUEi/5pDiXO6B2JNt0I5KRQaUGMb5qn2ZOKLSWoeeuj+cyo22PPGf7phDWLNzQnwxGak+FIsmeK3ShO/MXRChYr9QwyVrAY9ntWlLfUzhzII8GZwZFEXEboJntWsMT7zLYAKXjpSUcbybQlJX06+azyY5rG4ESFiNpVsNhPOqU91wlrBwFK0gqWkYhnW4PdqkmSTg5p03XCeq0o7bkKVgXrCQEqJJ2wzjddBes8dkPBov9UPT2VzGhv1NbYbmOgzTl65F21fqU4UF8zcqe+R9evVZPYLC7TJwLTc9TWYH9+rh6vTPr4sSv+p+opILOKnCQ6o+nSPD9j09FGSnM3TUNrZ/b8KnmanqO2KU6piCV9XMHaQZ8WPm3aChajfgWLvQlS3lawGO92v09j1NbY9kp4XBRKXCoY5jpNffdKyP/x4ArWhvMUkHTySD+ZWTXup3l2wjoW1QpWBWvLkik/L0NPZSOC5lReMWGZeJLp8Iqmpf6p3UhqaN2N2NMDaMZBtzJPir355HFVPdjRM7YycVawTk6SFaxXAhriJRMmbe6R2JvaUcE0TUsPampnruNpnGY9tTW8qWBVsN4RMEKwqpGpn05Y/PpIhSQVduqngrVBygBCTzVTzFVCkDbtqjh7JWTiQrnYCeu384Cmby7mjj5DwSlJKli9ElL+be0Sjpn+MAd1ckU/i8Pf60yc+NcaTFAmALPv2cIbHwmZZon1DDKtqtFK7On10cREsTfTKbWldoZ3ae4z1pvDv4J18RsWFQIqjOn1abSexjmDoCYn07QVrJXVus5XBSvAkgqJeS9KTmnT3CbtCpZB69l2Bkdm7Hk+w7UrK1gB3quIQ/1UsF5/f8kQfIYw09qZQ23GnkEbLF1q6tkrYa+ES8n5kbO0aXsl/DSlVIFUsBRc88f9XglZQSpYzziZ97sZkySrWm6lBOvO38MyqdKCUNKbq9Yq4pjCzYjJYGdi3WJNa/lYR/2Yj/vpJGaudPRQetjR2lG70Z60vyjGo/1MPWlMI7tbfw/LBE9BMU1HSfYZiTMjJoNdQnJaywoWf78zmG55n9QyFUujAQ/bCtZNb1hULM2pNmMiSCcXOs2YidfsSZtx1QHQCctK1LN9BauC9Y5AJ6xnMsw4ACpYFawnBEzT0SlnxulLfXfCev0zsU5Yrwh8mysh/ZefDUloM6ZCkIpTEmd2TrjVybXGeeLWFHtqxz3vP8SnV1fDRRprIiIPH7Tu5lCjnJ81CVLsRnbR97BMQShxzRhO9zQgzdjT+DeE2tqaesyIiTZ9GqepEW16GrvBbUaeM/zP6DmKu8nnYVvB2iBmmsGCfdaeFj9tEBMfxYnazfBtppQKFrtm0npSzpq6V7B20KIFsUAn9rT4FaxXlBPs6Nr0SjZav8p/J6xACGaAZ8SigsXQojhRO+b1LyuzJ236TljfYMIyJwslTrpnOmWYZjBNtrU1eMxoJhp7+pi958fsmeaerqc4mTzpnoYjif8ZfsyepmejN6xUXGjhHnaUeCb5Pf8VrGdUjLjQepo9ad1XcjHNk643TV/Boqju2KUko+DPEJcZe1Jh/EpNlzRTBYs1V4Lx6JBPuZj0puH3yLYT1gaZClYnLCYnx1Yzpv1jr/9YUP8zhNHsSeN8ZFbBqmB92ANmGqLNZPZMp/V0Pc2JTh5mP9P0if8ZfsyesWClRTYBmAJubek0NAs8Ol6neJj4ryZuGrup72esJ41/VY1oPJ/VLsVpd8KqYJ0vN2064yEtMhWdGbGneX5lLprcaY3Mnp/RNuVyBWtT1ZQ4M5o+LTLNaUbspmmof4MHzd3ESSdrs+eqOE1MM2xN7fb8V7AqWO8IUMGYQeTHntS/If0qITAxJdf2Wdiv2jfFqYJVwapgXdCtaSOuEtYLUo22SHGqYFWwKlhRC/61OG3EChYrQiRY5uNpFs7+N9oNIdJH2nRcT641Bk+T54xmmJEn5Yh5Q6I4UbtRjAZjip3Bg+5phNXkZGIltqM4K1gAPVO4hDgVLFCMgcmI4FSIqF0F63yNzMoKlkEruCZWsJ7Bo3gE5fnwSkaFiNpVsNJKsfUVLIbTrlUnrFdYqBBRu6A8Fawv/gmrueL3Sgg6pYJVwTqiyQyOHPn8+b/Tg+HLv2HN+JefKXhGWWnxVhHHFH4v9vQKQvFIrzBpnjPiNPyi8Zt6GFuaP91zFb8fcRuct3lS3B/raO4P2yn/LuGqRKkQjEjz2eI0RaaNUME6/8+EpQ/5pka0aStYv//xRoA1zW1sE2WuYJHK7dtQ4q8UUVpPwy8aPxUMOxHQClH/tG7phJSup7hbPDthbRhFCWEKkjQiJby1W5WnjWtrnzYyrRP1YxuM5k/907qlgpOup7hbPCtYFawPe8oQjzansUsbmcZP/dgGo7lS/xWsnSshHbnNHX+vcNTPqOh3r6dkTONM/NC1IzvzZdbUVzKJmjipOKT5GHGh/bEyJir2JiaK/Qi73QmLNlgFi5WK4sl2G1utItjoupDGX8F6RmBlPe8UTNMfFayTV0LTnKYgZt+t7UqCz/BVwapg/Y1AJ6ydbrhTSNLrwp0nYicsdqykNZ5xKJiYVvk3fdgJqxPWh91n3oZYGzur9M2DNsOq5jTZ3x3TKv+0Rg/ssGDRcd2cvpSMjz2N7TbWGafKykam8RuC0T1HDUZ93e3HNAMVkzR3GhO1S2tE8x7ZJb1pe7uCtanCDDLOIER6JbxbSCgmM+pxd+5UiKhdBeu383/O0AmLYUcbdnQCVbCeETATbwXLsO/YthPWDkYJKIagM07045J/bEHjp7EbEUxPbxr7LD/plJIcDKmIprEbPiQcTXqzV0IodisbJCGDERdD0LuFhGJCc0rFgcaT3iBG62nTm7pR7Ezue7Y09pEfs75vWH3DOsVX2gymwe6cZgwIae50cqJ26eFrcv82gmVUlIJCCW6a5k6SmDhp7oaMpkZprDR+GlM6YVERMhOvwX4V7+6s2xXCumzCosQzY2NCegOeKbIh/jYG44fmbprG1CiNlcZPY6pgsQ977qyb6bmRbQULXAlNkStYRiKfbemUQe3S96L08DRImJyo2Cc3lc8Y+yOmClYF6x0BOs3cfS0yzU1tzUFjDjDa+DTOdEr5yrFXsHaqv4o4M04/03TU/2jPO4lvakRtDXZ35l7Bgj+RTE+K1M40CCWjKbKZMmiulODfOXeK5eiaZ9bTGpt3sRn+6aGSYkL5aXI0B4DZF//iqNk0sf3OTfudczecSZuhgvWMdgXLsA+8IY3eTDphnScexW6GOAT0+LF0RkwUj5X+O2G9ItAJa4MJPX1N09ETrBMWQ7WC9YpTggnlJ6vOX1ZJPB/5qWBVsN4RuFOsVzYDzbNvWKYqz7bTBOvt7Q39u4SpCs9IYFVMxg+9WszAY0QvEz+l6J15mny+SpwU95Ed5RMV69EzzJ5/6tvsOcrzlwrWMVW+SoNUsNhVyTTtMTvGFoY3iR9zBTO50/grWLB6FNAZp5LZ05AEpq7MUpzoqboqT5NPJ6zn6pkaUZwrWLAdKaBGXPZsjZ87G6QTVieso9apYB0h9N//blQYbrn7O+90bTpGGxE0JDHxU1sjuHTPO4XZ5PNV4qS4G97Rw9d8Ok2n7VmHJ37DosmnQvBVhC1tGkNQ6stgR0XUfFJG9zRkpjlRjAzuqTgYXzR+Iy5UrE2cVLBoPkYvHrYVLFCttPC06UwjU+KYPU2e1NbkngieaRBQ8g9NTE7UF42/ggW/1tAJ6xkBSjB7ghict7amkag4dMJ6rYjBuYJ1jIDBsxPWMZ6739qtYL3+YBwVwXTqS0QdlPvQxDTY4Wb/NaB86oTVCeuQU/T6M+vNIyUzbXCTJ7U1zZ0IHsXosNjAwOQEtvthQuOvYFWwDjlFm7OC9ecLBKa5K1iHVBz+jR7FjgrjcST/WKzsj90rIU1+5WifgGKahk4jRpxSPNOY9tavwiT1QxtnRiOmNTbr0zxpf6T1oFw29aCxPzCqYAGmzAB/BnFAKu8mq/ynfmhOpkZ0TyM4xn+CycoPQehBaQSHHp6jPCtYgL0pGempBEJ5NzExUZLM8J8054x4zJ4VrFcEKJcNP43gVbAAg2eAnzayiamCBYosTEyDXY19J6ydR3eqon3DekWAkrmCJRQCmKYCDlx8eJ02/pPaf3vB+hX+IxQJyI9Km4JS8qQxUT9GwI3t1r/BiArjrGvN1ZMDrcWIS+nH/fS9ZiWeMzBeyTEav+kZ/IujqTgYoCh505ioHwOosa1g0Qo82xmMje2d9aBIpJw3fZgeihWsDQJp8ShJDOmN7Z0NsoqMFGNjZzA2tnfWg+afcr6CBZE2QMEtp/3QPSHuV7+CVLCOWWY4OwNPOqEcZ/KPxd05UZxG/dUrIai2OaWNLRHGWW8mlDgAnneT9PSnvgzGxvbOetDcU4z/JwUrBWUPfEqcFFDq+2E3o2kp8Wacnonvx1pao5Et9W/4Rflg9jQcWZVTysVkfYpdiqeJfXfCWpWACTRp8PSjYEra1G4G7iamCpZB69nW1I7iTMU6PXxN7BShWbFXsDYVMEDT4lG7GcShvjthvf7htsHO1K6CdSz2oz6sYFWw3hGgjdQr4auUVbCeMTEHv7lpVbAqWBWsC77YXMGqYB1O5JQkfcM6hPKHQScshlPynmpwnjWlbOOnfWTQmRV79BPJowQo8ald6mfW+r19k5xMkU3TJDEZ7ExMhvzEdhZ2xLfFyFyBrhYXg9MMIUt7poK1QTAtUiIOhkxGHJKYbDNe3WBUMGZhR/3TRnzYVbCOr4/DL46+BT+RbMhMi2QEI23EdD0lKc1pVtOtytOIaCIEFHfjg9bI7DnjKSKN03As9UWxMvzshNUJi/LqyY4S/07Sm8RmxFnBYhWoYDGc1CMz3DLak4rAKJZR0xlCJHl2wjq+6vRK+MoSw0/8t4QpGU1QtGno1eCrNLI5kWnuBkt6bR813YyYUt4lMRnemDjTg8nUdGtrapz4mbW2grXgSkjJXMFiNE+vb1QwKlisHiutKlgVrHcEzOlLRYOKgyE99T3ak8ZUwTJVWWNbwapgVbAGvVbBWiNCxksFq4JVwapgGc241Rb/LSEdo0fZ0OuGGffpQ76JncaZVi31Y9ZTTCmej9yN7Rar9K0ueUhP6/ZYT/G8whfFLnkI26aUAAAI10lEQVQnNZOk4R2NyeBUwQITlhE8Cv6MwqdCYETI2NKmS4RgRo3M4UvrntqZPCnHKlg7VUnBo6cq9WPIaEhCCbkyTioERoSMbQWLsuLYznCRcqyCVcE6ZB4l0xXCWsE6LIcyoHiqTaFxBWvnH1JNm4neXZNT2ryjzCgy5NfQLMXYrKcNZuphbDthpWz5Z/0MLn+bCcskSkVsVFpaKNPICY2oCBgf5g2K4vHwn8Rq/NBcTTyJMJpDjcZ+xZ4UU8Nlgyk9QJKepTmO+DlaHz26V7AMzY9tK1ivGFWwnjExHDlm3F8Wqbjs+Un3rGDR6kG75ESzU6Q5aZNTMSUehE5NfBWsCtbPCHTCol22satgnQROXlErWBWsCtb5XntfWcE6D6LBroJVwapgne+1CtZi7CpYFazpgjXjLYS+46w8vWmeNCbzoJo2cqo7d/un8ZvHX7on5eJoP8oHyi/jx+CRxGnfabf2I99T3rBSoOnDcdo06XqaJy18BYtKBrczDUp3rWBRpF7taD0qWDsYV7CuJR4V5vNe/UraIGbnCpZBi11pO2EBTCtYAKSByQzszkczXlnBOicYj1UzDiBaj05YnbAu1YMK1j1CQBt+JDjp+pRE1L8SrDQo+gZl/MxokFV7pnikRaY4Uz+j/eiJnPqh+aRxjtbT+M1fgtBrJsX4EXvK7zTPPfxoTCPf0S+OGuIYoJNETUwUvHTPCtb5acRgT21ncNHUmPKO2hlhNblXsCijvsD1zZDEkJmKdbpn4iedXGgjBHT5cKlp2gSnTliv6FER7oR1owim4kIbfFUjVrD+RFpawapgPSEwo0Fn7FnB6pXwZwSSKcPwk/q5+7ZA3+8ecf7y9vb2ho6LCUZ0cni4pknNKOiqwk+AeLglxfMzxmRqPONKRzEx/KaH2mhPikkaE83dTOGmvypYG2RpI1OCPLa/myRpM6QkpetnYF/B+vzTbQULdggFitqlozUM+xIzKg6XOIOb0JjMYVHBqmBB+h2bmcljBpmpEFG7CtZxzT+ymFHjClYFK2PlT6srWJdBqTei4qA3DhbQmDphvYJMMTE9F5RyuDSt8a1vWAYQOuVQO+PbnNIJcehaGzslKSXTw38SK41nlKeJc2+PJPZZUzTNycROcTZ70l6Y8ZWOh+8Klu3+/9rP+LQmJU7aTLRpKlivSFNxSEXYcITGZPasYEHBoJMTtYNuh2YVrH+fhpA2UtrcZv3pZA4OMLovPSyMuFCczZ4VLFhRKkTUDrqtYP1n/1vdCclpIxnBMXsmsadTbJqTiZ1iYvasYEHloEJE7aDbClYFC1GFikMF6/UApNNl37AQFfeNeiXslfBnZlSwnvtk2qP7r7//cduf5uxJgRlP6TRlyET9rxSsVXmmOK2Kk15LZk0zNE9zHtI9V9XoEfuqmAxOy34PiwZFBeNuQCtYrxPWnQT/jI1MOb+Sy7RGK2MyOFWwNmhRwaxgVbB+pg7ljXm0N2879LZSwTLyCGxN4Sn46elrriA0fhr7ypMuxYnmlPox9bizkQHd301WYUf9rOSdwakTViesD5tmxjtQBesVVSokKXbUz5cSLDolGGWkp+IM33cXOTnlH2spJuaaajCh8VM+zIjTfCpF41xpt+r6d3UtR8JmsDO543/52QRAbY3a0z2pMM6YHEzxTJEqWMfVr2CxN8UK1jGXhhYVrGdozORhhNmIIy0nFdFVcVawKliUu6ftKlgVrJ8RSIS1glXBOi1EdGEFq4JVwfoLgUSs0/XJtGyeQdJnmMd6/IY145HWCBa1pXZUVK0dxWkGQU2sFCeaj/FtbFOcZrzZmPipLa0H3W9kt6qeRgRNTBWslAGb9RT8tBENIeg7UhrTxVBeMnlUsNgUf3XtDD9pz3TCurpK4l/IScXBEKKC9YxAit0E2uC/20t9G3FIfBmMTUydsJKq7Kyl4FewGPApTp2wOmExpm2sKPHMpz3pnqcSOVhUwboWVVpj49Wc/mbfxLZvWAy9Lz1hrTo9qQgxyP+yMo1IbdNGNHnOiMn432Kd5k6vzaMaG/+rxMnwkeZP634FTnt7VLBAVZNGMoUzXxydQXqTJyVu2sigPMMDgK4d2aV4mH0NTmledD3l2CycKli0Uhs7UxDqgja8mcZS0ps8afwmJuO/ExZl2nm7ChYQAvOG1SvhMwJGHOgVIJ0QTUwVrPPiMmNlBauC9Y4AnVA6YbFWNMLIdtz/iWAj4L0SviKQ1qlvWIC9yclvCN43rP1/UgyUCP8ED9nrbxtTd9OIdHIxsc6wpXHOwunbvmGtFAJTvOQdhpLp4cPYbmNKsTONRJveYPwZ96TTNbUzGBtbip3ZM7X9FhNW2nSmcKaZKljn3uAMxrR2K/ekQkTtUhEwt4BZvui+FazgXW0PZEP8ClYF66PrZwXrtcMqWBWsDw+3dDqlJ+fD7jNOQ3vxp3FSIaJ2BmNjS/M0e6a2FawKVgVL/NH6FcJKhYjapSLwP3klnAFK8hhs4kmnBEMcakvtRg2SXD0NQVM/aZ60zl8lzkc+lPfULt0z5cOqGj/ixBMWJY6xMwUx+25tK1gMPUM8tmP+N5PUTwXr9SshaT3pempnptNR3StYJ6+En1EEaXOnJ6rxs4rMFawKluHlKdtOWM+wpSJ4qgg/LTLiQn2ZPZNH3gpWBYty8rRdBauC9TMCFaxjPowwor1khJ0eNtRu2pXwtAJdsDAhrXl8HIVKC2/W79maPA3JUl/0/Y/6SWOnlDJ40j1NjU3TUv8mJ8pbajfqpTR2yodR7rtvWDSoGXamSHv+TUFWrafNbRrEYJ9gSgk2Oj3NepPT1jbJ0fqlHEtzNzklMZmpjWKV7lnBgkjTwqfikpIRpvPDzPjqhHWMLOVIBesVS4pJBeuYhz8sKBkrWK8IzLgWwbJFokx9/G1HOUKbc+TfHDRJTOk0ZG4QFJMKFmQlLXwFq4L1MwIzxLqC9cqxvmFtMKlgPQNCT8S+Yf37pbsMdmZK2bOlvKV2o9sGPPeHEy/FZCTW/x/i1emVdC9rRQAAAABJRU5ErkJggg==" style="opacity: 1; display: block;"></div>
+          <div class="countdown-timer">
+            <small id="header">Går ut om</small>
+            <p id="countdown">NaN:NaN:NaN</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-qr btn btn-hero btn-circled" onclick="reloadQR()">Ladda om QR-kod</button>
+          <button type="button" class="btn-qr btn btn-hero btn-circled" data-dismiss="modal">Stäng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="schoolapparel_modal" style="display: none;margin-top:120px;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">School Apparel-rabattkod</h5>
+          <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="countdown-timer">
+            <small id="header">Din rabattkod är</small>
+            <p id="schoolapparel_code"></p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-qr btn btn-hero btn-circled" data-dismiss="modal">Stäng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="group_name_details" style="display: none;margin-top:120px;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Klass</h5>
+        </div>
+        <div class="modal-body">
+          <p>Välj vilken klass du går i nedan.</p>
+          <select style="width:100%" id="group_name" class="select2 form-control select2-hidden-accessible" name="group_name" data-select2-id="group_name" tabindex="-1" aria-hidden="true">
+
+            <option value="1600" data-select2-id="2">BF20</option><option value="1635">BF21</option><option value="2109">BF22</option><option value="1601">EE20A</option><option value="1602">EE20B</option><option value="1638">EE21A</option><option value="1639">EE21B</option><option value="2113">EE22A</option><option value="2114">EE22B</option><option value="1616">EK20A</option><option value="1617">EK20B</option><option value="1618">EK20C</option><option value="1631">EK21A</option><option value="1632">EK21B</option><option value="1633">EK21C</option><option value="2110">EK22A</option><option value="2111">EK22B</option><option value="2112">EK22C</option><option value="1607">ES20A</option><option value="1608">ES20B</option><option value="1609">ES20C</option><option value="1640">ES21A</option><option value="1641">ES21B</option><option value="1642">ES21C</option><option value="2115">ES22A</option><option value="2116">ES22B</option><option value="2117">ES22C</option><option value="2119">FS22</option><option value="1603">FT20</option><option value="1637">FT21</option><option value="2118">FT22</option><option value="1531">FTVUX</option><option value="1619">HA20</option><option value="1643">HA21</option><option value="1536">HAV16</option><option value="1645">IM21</option><option value="1537">IMA</option><option value="1538">IMB</option><option value="1597">IMC</option><option value="1542">IMD</option><option value="1598">IMLAGER</option><option value="1543">KLASS4</option><option value="1604">NA20A</option><option value="1605">NA20B</option><option value="1606">NA20C</option><option value="1620">NA20D</option><option value="1623">NA21A</option><option value="1624">NA21B</option><option value="1625">NA21C</option><option value="1626">NA21D</option><option value="2120">NA22A</option><option value="2121">NA22B</option><option value="2122">NA22C</option><option value="2123">NA22D</option><option value="1564">SA18A</option><option value="1610">SA20A</option><option value="1611">SA20B</option><option value="1612">SA20C</option><option value="1613">SA20D</option><option value="1627">SA21A</option><option value="1628">SA21B</option><option value="1629">SA21C</option><option value="1630">SA21D</option><option value="2124">SA22A</option><option value="2125">SA22B</option><option value="2126">SA22C</option><option value="2127">SA22D</option><option value="1614">TE20A</option><option value="1615">TE20B</option><option value="1621">TE21A</option><option value="1622">TE21B</option><option value="2128">TE22A</option><option value="2129">TE22B</option><option value="1599">TEMPORÄR</option><option value="1596">ÖVRIG/SAKNAS</option>          </select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="1" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false" aria-labelledby="select2-group_name-container"><span class="select2-selection__rendered" id="select2-group_name-container" role="textbox" aria-readonly="true" title="BF20">BF20</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span><span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;" tabindex="0" aria-hidden="false"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false" aria-labelledby="select2-group_name-container"><span class="select2-selection__rendered" id="select2-group_name-container" role="textbox" aria-readonly="true" title="BF20">BF20</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span><span class="select2 select2-container select2-container--default select2-hidden-accessible" dir="ltr" data-select2-id="1" style="width: 100%;" tabindex="-1" aria-hidden="true"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-group_name-container"><span class="select2-selection__rendered" id="select2-group_name-container" role="textbox" aria-readonly="true" title="BF20">BF20</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="8" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="-1" aria-disabled="false" aria-labelledby="select2-wfcg-container"><span class="select2-selection__rendered" id="select2-wfcg-container" role="textbox" aria-readonly="true"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span><span class="select2 select2-container select2-container--default select2-hidden-accessible" dir="ltr" data-select2-id="2" style="width: 100%;" tabindex="-1" aria-hidden="true"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-28h6-container"><span class="select2-selection__rendered" id="select2-28h6-container" role="textbox" aria-readonly="true"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="9" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-ri5t-container"><span class="select2-selection__rendered" id="select2-ri5t-container" role="textbox" aria-readonly="true"></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+        </div>
+        <div class="modal-footer">
+          <button id="submitBtn" type="button" class="btn btn-hero btn-circled" onclick="addGroupDetails()">Okej! Ändra det!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="changePwd" style="display: none;margin-top:120px;" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="pwdchangeform" class="" action="https://medlem.karkortet.se/index.html" method="post">
+        <div class="modal-header">
+          <h5 class="modal-title">Ändra lösenord</h5>
+          <button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+        </div>
+        <div class="modal-body">
+          <p>Ändra lösenord genom att skriva in ett nytt lösenord.</p>
+
+            <div class="form-group">
+              <input type="password" name="pwd1" placeholder="Nytt lösenord" class="form-control" value="">
+            </div>
+            <div class="form-group">
+              <input type="password" name="pwd2" placeholder="Repetera lösenord" class="form-control" value="">
+            </div>
+
+        </div>
+        <div class="modal-footer">
+          <button id="submitPwd" type="submit" class="btn btn-hero btn-circled">Ändra lösenord</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg fixed-top trans-navigation header-white">
+  <div class="container">
+    <a class="navbar-brand" href="https://medlem.karkortet.se/">
+      <img src="./FINALHULE_files/logo_new.png" alt="" style="width: 150px;" class="img-fluid b-logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+        <i class="fa fa-bars"></i>
+      </span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+      <ul class="navbar-nav ">
+        <!-- <li class="nav-item dropdown"> -->
+          <!-- <a class="nav-link dropdown-toggle" href="index.php" id="navbarWelcome" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hem</a></li> -->
+          <!-- <div class="dropdown-menu" aria-labelledby="navbarWelcome">
+            <a class="dropdown-item " href="index.php">
+              Home-1
+            </a>
+            <a class="dropdown-item " href="index-2.php">
+              Home-2
+            </a>
+            <a class="dropdown-item " href="index-3.php" target="blank">
+              Onepage
+            </a>
+          </div> -->
+
+        <li class="nav-item"><a class="nav-link smoth-scroll" href="https://karkortet.se/">Vad är kårkortet?</a></li>
+        <!-- <li class="nav-item"><a class="nav-link smoth-scroll" href="omoss.php">Om oss</a></li> -->
+        <li class="nav-item"><a class="nav-link smoth-scroll" href="https://admin.karkortet.se/">Logga in som administratör</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+  
+<!-- <div class="bottom_navbar" id="#bottomnavbar">
+    <a href="#home">Medlemskort</a>
+    <a href="#news">Rabatter</a>
+    <a href="#news">Föreningar</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>  -->
+  <section style="margin-top:80px;">
+    
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-7 col-sm-12 col-md-8">
+          <div class="about-content" style="margin-bottom:30px;">
+                      <p class="text-union mb-0" style="font-weight:600;opacity:0.7;margin-bottom:0px;line-height:10px;">HULEBÄCKS ELEVKÅR</p>
+            <h2 class="mb-3">Kårkortet</h2>
+            <div class="card_member" id="card_member" style="perspective: 1270px; position: relative; transform-style: preserve-3d;">
+                              <div class="front" style="backface-visibility: hidden; transform-style: preserve-3d; position: absolute; z-index: 1; height: 100%; width: 100%; transition: all 0.5s ease-out 0s; transform: rotateY(0deg);">
+                  <img src="./FINALHULE_files/60cc3f299c070276aca5accfa4280e.jpg" alt="" style="backface-visibility: hidden;">
+                </div>
+              
+                              <div class="back" style="backface-visibility: hidden; transform-style: preserve-3d; position: relative; z-index: 0; height: 100%; width: 100%; transform: rotateY(-180deg); transition: all 0.5s ease-out 0s;">
+                  <img src="./FINALHULE_files/3047debc38592c1f183c887e8b9a12.jpg" alt="" style="backface-visibility: hidden;">
+                  <h4 class="member_card_text" style="backface-visibility: hidden;">Kasper Beckman, EK20B</h4>
+                </div>
+              
+            </div>
+                          
+            
+            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+      <hr>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 col-md-12">
+            <div class="about-content" style="margin-bottom:40px;">
+              <h2 class="mb-1">Rabatter</h2>
+              <p>Hulebäcks Elevkårs rabatter visas nedan.</p>
+            </div>
+          </div>
+          
+<div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Sibylla</h4>
+                      <p>Tycker du inte maten i skolan var för dig just idag? Går du fortfarande hungrig på biologilektionen? Tveka inte på att använda den här grymma rabatten! Rabatten på sibylla innebär att du, vid uppvisande av kårkortet, får 15% rabatt på allt. Du utnyttjar rabatten genom att visa ditt digitala medlemskap.</p>
+                      
+                      
+                    </div>
+                  </div>
+                </div><div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Soja Sushi</h4>
+                      <p>Sugen på något annat än bambas mat? Gå till Soja Sushi istället och använd vårt grymma erbjudande, 5 kr rabatt på valfritt köp.</p>
+                      
+                      
+                    </div>
+                  </div>
+                </div><div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Mårtenssons Trafikskola</h4>
+                      <p>Ska du övningsköra och ta körlektioner? Då kan du utnyttja elevkårens rabatt vid Mårtenssons Trafikskola!Rabatten gäller 10% rabatt på följande paket (rabatten är inräknad nedan i "kårpris");  5 lektioner (kårpris 7 920 kr) 10 lektioner (kårpris 12 240 kr) 15 lektioner (kårpris 16 560 kr)  B 5 lektioner (kårpris 4 680 kr) B 10 lektioner (kårpris 9 090 kr) B 15 lektioner (kårpris 13 230 kr)  För att utnyttja rabatten visar du ditt digitala kårkort.</p>
+                      
+                      
+                    </div>
+                  </div>
+                </div><div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Esspresso House </h4>
+                      <p>Vem behöver inte en paus från skolan och fylla på ny energi? Eller bara unna sig efter en lång dag? Förtjänar väl du det! Vid uppvisande av ditt digitala medlemskap får du hela 10% på hela ditt köp.</p>
+                      
+                      
+                    </div>
+                  </div>
+                </div><div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>HemmaKväll </h4>
+                      <p>Lill-lördag, att veckan är slut eller varför inte på en rast, ja anledningarna är många till att unna sig något riktigt gott på Hemmakväll. Använd då kårens grymma rabatt! Som medlem får du 15% på hela Hemmakvälls sortiment vid uppvisande av ditt digitala medlemskap. Gäller på vardagar mellan 9:30-15:30.</p>
+                      
+                      
+                    </div>
+                  </div>
+                </div><div class="col-lg-4 col-md-6 col-sm-12">
+                  <div class="card">
+                    <div class="card-body">
+                      <h4>Friskis och svettis </h4>
+                      <p>Spara massvis med pengar och kom i form under ett år med kårens rabatt på Friskis och Svettis. Här kan du träna med maskiner, fria vikter eller på cardioavdelningen, själv eller tillsammans med andra. Du får som medlem ett årskort för endast 1900 kr, alltså över 50% rabatt! Visa upp ditt fysiska kårkort eller det digitala medlemskapet vi köp, observera dock att det fysiska kortet ej kan användas efter 31 december 2019.</p>
+                      
+                      
+                    </div>
+                  </div>
+                </div>        </div>
+      </div>
+    </section>
+        <hr>
+  <section>
+    <div class="container">
+      <div class="row">
+        
+        
+        <div class="col-md-6 mt-2" style="margin-bottom:80px;">
+          <a class="btn-circled btn btn-hero" href="https://medlem.karkortet.se/kontakt" role="button">Kontakta Hulebäcks Elevkår</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-sm-12 col-md-8">
+          <div class="about-content" style="margin-bottom:80px;">
+            <h2 class="mb-3">Åtgärder</h2>
+            <a class="w-100 btn-circled btn btn-hero" href="javascript:toggleSessionsModal()" role="button">Se aktiva sessioner</a>
+            <a href="javascript:resetPass()" class="w-100 btn-circled btn btn-hero mt-2" role="button">Ändra lösenord</a>
+                          <a href="https://medlem.karkortet.se/stadgar?union_short=hule" class="w-100 btn-circled btn btn-hero mt-2" role="button">Läs elevkårens stadgar</a>
+                        <a href="https://medlem.karkortet.se/includes/loggaut.inc.php" class="w-100 btn-circled btn btn-hero mt-2" role="button">Logga ut</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="footer" style="margin-bottom: 60px;">
+    <div class="container">
+      <div class="mt-5 row">
+        <div class="col-lg-6 col-sm-6 col-md-6">
+          <div class="footer-widget footer-link">
+            <h4>Vad är Kårkortet?</h4>
+            <p>Kårkortet är ett nytt, revolutionerande medlemssystem för elevkårer i Sverige. Det gör det möjligt för alla medlemmar att ha ett digitalt medlemskort direkt i deras mobil. </p>
+            <p>Version: 	git config --global --add safe.directory /var/www</p>
+            <img src="./FINALHULE_files/logo_dark.png" class="mt-3 mb-5" style="width:70%;" alt="">
+            
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 col-md-6">
+          <div class="footer-widget footer-text">
+            <h4>Kontakt</h4>
+            <p class="mb-3">Kontakta i första hand din elevkår för ärenden relaterade till ditt medlemskap. Om din elevkår inte kan lösa problemet, kontakta oss genom att använda kontaktmetoderna nedan.</p>
+            <p class="mail"><span>Mail:</span> info@karkortet.se</p>
+            <p class="mail"><span>Telefon:</span> 031-808060</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="footer-copy">
+            © 2022 Kårkortet. Alla rättigheter förbehålls.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./FINALHULE_files/jquery.min.js"></script>
+  <script src="./FINALHULE_files/popper.min.js"></script>
+  <script src="./FINALHULE_files/bootstrap.min.js"></script>
+  <script src="./FINALHULE_files/jquery.waypoints.js"></script>
+  <script src="./FINALHULE_files/jquery.counterup.min.js"></script>
+  <script src="./FINALHULE_files/jquery.easing.1.3.js"></script>
+  <script src="./FINALHULE_files/wow.min.js"></script>
+  
+  <script src="./FINALHULE_files/gmap3.min.js"></script>
+  <script src="./FINALHULE_files/js(1)"></script>
+
+  <script src="./FINALHULE_files/custom.js"></script>
+  <script src="./FINALHULE_files/sweetalert.min.js"></script>
+
+  <script src="./FINALHULE_files/jquery.flip.min.js"></script>
+  <script src="./FINALHULE_files/select2.min.js"></script>
+  <script src="./FINALHULE_files/qrcode.js"></script>
+
+  <script type="text/javascript">
+    $("#card_member").flip();
+    $(".select2").select2();
+
+    var union_id = 40768;
+
+    var countDownDate;
+
+    $(document).ready(function() {
+
+      $.post("includes/generateMemberSeed.inc.php", "", function(data, status) {
+
+        console.log(data);
+
+        var response = JSON.parse(data);
+
+        console.log(response);
+
+        if (response.status == "ok") {
+
+          var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "https://admin.karkortet.se/verifieramedlemskap.php?id=" + union_id + "&seed=" + response.seed,
+            width: 300,
+            height: 300,
+                        colorDark : "#1EA5C5",
+                        colorLight : "#fff",
+            correctLevel : QRCode.CorrectLevel.H
+          });
+
+          startTimer(5);
+        }
+
+      });
+
+    });
+
+    function generateSchoolApparelDiscountCode() {
+
+      $("#submitLoader1").fadeIn(400);
+
+      $.post("includes/generateSchoolApparelDiscountCode.inc.php", "", function(data, status) {
+
+        $("#submitLoader1").fadeOut(400);
+
+        console.log(data);
+
+        var response = JSON.parse(data);
+
+        console.log(response);
+
+        if (response.submit == "success") {
+          $("#schoolapparel_code").html(response.msg);
+          $('#schoolapparel_modal').modal('show');
+
+        } else {
+          swal("Fel!", response.msg, "error");
+        }
+
+      });
+    }
+
+    function reloadQR() {
+      $.post("includes/generateMemberSeed.inc.php", "", function(data, status) {
+
+        console.log(data);
+
+        var response = JSON.parse(data);
+
+        console.log(response);
+
+        if (response.status == "ok") {
+
+          $("#qrcode").html("");
+
+          var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: "https://admin.karkortet.se/verifieramedlemskap.php?id=" + union_id + "&seed=" + response.seed,
+            width: 300,
+            height: 300,
+                        colorDark : "#1EA5C5",
+                        colorLight : "#FFF",
+            correctLevel : QRCode.CorrectLevel.H
+          });
+
+          startTimer(response.expiryMinutes);
+
+        } else {
+          if (response.error_msg == "reload") {
+            window.location.href = "loggain?email=otalcoth@gmail.com"
+          }
+        }
+
+      });
+    }
+
+    function fetchFile(file_id) {
+      location.href = '/includes/fetchFile.inc.php?file_id=' + file_id;
+    }
+
+    function addMinutes(minutes) {
+        var current = new Date().getTime();
+        return new Date(current + minutes*60000);
+    }
+
+    function invalidateSession(auth_id, current = false) {
+
+      swal({
+          title: "Är du säker?",
+          text: "Detta invaliderar sessionen, vilket gör att du inte kommer åt Kårkortet från enheten utan att logga in igen.",
+          icon: "warning",
+          buttons: ["Avbryt", "Ja"],
+          dangerMode: true,
+          closeOnConfirm: false
+        })
+        .then((willDelete) => {
+          if (willDelete) {
+            $.post("includes/invalidateSession.inc.php", {
+              auth_id: auth_id
+            }, function(data, status) {
+              
+              if (data.includes("success")) {
+                //Success swal
+                swal(
+                  'Invaliderad!',
+                  'Sessionen har nu invaliderats!',
+                  'success'
+                );
+                
+                $("#session_" + auth_id).remove();
+
+                if (current) {
+                  setTimeout(function() {window.location.reload()}, 1200);
+                } 
+
+              } else {
+                //Error swal
+                swal({
+                  type: 'error',
+                  title: 'Fel...',
+                  text: data
+                  // footer: '<a href>Why do I have this issue?</a>'
+                })
+              }
+            });
+          } 
+        });
+    }
+
+    
+
+    function countDownHandler() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      hours = (hours < 10) ? "0" + hours : hours;
+      minutes = (minutes < 10) ? "0" + minutes : minutes;
+      seconds = (seconds < 10) ? "0" + seconds : seconds;
+
+      // Display the result in the element with id="demo"
+      document.getElementById("countdown").innerHTML = hours + ":"
+      + minutes + ":" + seconds;
+
+      // If the count down is finished, write some text
+      if (distance < 0) {
+        clearInterval(this);
+        $("#header").hide();
+        $("#qrcode img").fadeTo(700, 0.2);
+        document.getElementById("countdown").innerHTML = "Tryck på \"Ladda om QR-kod\"";
+      }
+    }
+
+    // Update the count down every 1 second
+    function startTimer(minutes) {
+      countDownDate = addMinutes(minutes);
+      countDownHandler();
+      $("#header").show();
+      $("#qrcode img").fadeTo(300, 1);
+    }
+
+    setInterval(countDownHandler, 1000);
+
+    function addGroupDetails() {
+
+      $("#submitBtn").prop("disabled", true);
+
+      var group_id = $("#group_name").val();
+
+      $.post("includes/addGroup.inc.php", {
+
+        group_id: group_id
+
+      }, function(data, status) {
+
+        $("#submitBtn").prop("disabled", false);
+
+        if (data.includes("success")) {
+
+          $('#group_name_details').modal('hide');
+
+          swal("Lyckades!", "Din klass har lagts till, tack! Laddar om sidan...", "success");
+
+          setTimeout(function() {window.location.reload()}, 1200);
+
+        } else {
+          swal("Fel!", data, "error");
+        }
+
+      });
+
+    };
+
+    
+    function toggleGroupModal() {
+      $('#group_name_details').modal('show');
+    }
+    
+    function toggleSessionsModal() {
+      $('#active_sesions_modal').modal('show');
+    }
+
+    function resetPass() {
+      $("#changePwd").modal('show');
+
+
+    }
+
+    $("#pwdchangeform").on("submit", function(event) {
+      event.preventDefault();
+
+      $("#submitPwd").prop("disabled", true);
+
+      $.post("includes/changePwd.inc.php", $(this).serialize(), function (data, status) {
+
+        $("#submitPwd").prop("disabled", false);
+
+        if (data.includes("success")) {
+          swal("Lyckades!", "Ditt lösenord har ändrats!", "success");
+          $("#changePwd").modal('toggle');
+          $(this).reset();
+        } else {
+          swal("Fel!", data, "error");
+        }
+
+      });
+
+    });
+
+
+    
+
+  </script>
+  
+
+
+
+</body></html>
